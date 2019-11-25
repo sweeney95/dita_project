@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="hardware_requirements">
+    <title>Hardware requirements</title>
+    <conbody>
+        <p>When you select your product version for the hardware requirements report, you can set a report filter
+            by the <b>Operating system families</b> option. Set the operating system filter by selecting some or all of
+            the operating systems that are supported by your product. After you view the report, you can save it
+            as a URL to generate anytime or download it as a PDF.</p>
+    </conbody>
+</concept>

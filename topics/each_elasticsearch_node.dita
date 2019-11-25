@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="each_elasticsearch_node">
+    <title>Each Elasticsearch node</title>
+    <conbody>
+        <p><ul>
+            <li>vCPU: 1</li>
+            <li>Memory: 32 GB</li>
+            <li><p>Storage:</p>
+            <p><ul>
+                <li>Primary disk (vmdisk1): 100 GB</li>
+                <li>Data disk (vmdisk2): 1 TB</li>
+            </ul></p></li>
+        </ul></p>
+        <p>The required memory depends on the index size that is handled by the data node. For a better
+            performance, consider increasing the memory. The total memory available to the node must be
+            distributed between the host operating system, the Elasticsearch java heap space, and the kernel file
+            system caches. For example, if the system has 32 GB memory, 2 GB must be allocated for the host
+            operating system, 15 GB for the java heap space, and the remaining 15 GB for the file system caches.</p>
+        <p>The data disk (vmdisk2) can be resized according to expectations on the amount of harvest data to be
+            stored.</p>
+    </conbody>
+</concept>

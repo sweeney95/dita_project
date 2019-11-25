@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><!--DOCMAP--><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--opentopic:map outputclass=docmap parent@outputclass=[]--><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--DOC ignoring text 
+    --><VarDef varDef="mainbooktitle">DITA Project 2 - Michael Sweeney</VarDef><MetaData name="title">DITA Project 2 - Michael Sweeney</MetaData><!--DOC ignoring text 
+    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)d2e12--><!--DOC ignoring text 
+    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_1--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#unique_1"/>About this publication</P>
+        <P paraDef="body"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Deployment and Configuration Guide</Font> provides information about how to plan, deploy, and
+            configure the IBM StoredIQ product.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_2"/>IBM StoredIQ product library</P>
+        <P paraDef="body">The following documents are available in the IBM® StoredIQ® product library.</P>
+        
+            <ParaGroup paraGroupDef="ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Overview Guide</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Deployment and Configuration on Guide</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Data Server Administration Guide</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Administrator Administration Guide</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Data Workbench User Guide</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Policy Manager User Guide</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Insights User Guide</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">IBM StoredIQ Integration Guide</Font></P>
+            </ParaGroup>
+        
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_3"/>Contacting IBM StoredIQ customer support</P>
+        <P paraDef="body">For IBM StoredIQ technical support or to learn about available service options, contact IBM StoredIQ
+            customer support at this phone number:</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">1-866-227-2068</P>
+        </ParaGroup>
+        <P paraDef="body">Or, see the Contact IBM web site at <!--topic/ph hi-d found: [u] id=--><Font fontDef="u"><HyperCmd fontDef="ulink" openURL="http://www.ibm.com/contact/us/">http://www.ibm.com/contact/us/</HyperCmd></Font></P>
+        
+        <P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">IBM Knowledge Center</Font></P>
+        <P paraDef="body">The IBM StoredIQ documentation is available in <!--topic/ph hi-d found: [u] id=--><Font fontDef="u"><HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/knowledgecenter/">IBM Knowledge Center</HyperCmd></Font>.</P>
+           
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_4"/>Contacting IBM</P>
+        <P paraDef="body">For general inquiries, call 800-IBM-4YOU (800-426-4968). To contact IBM customer service in the
+            United States or Canada, call 1-800-IBM-SERV (1-800-426-7378).</P>
+            <P paraDef="body">For more information about how to contact IBM, including TTY service, see the Contact
+            IBM website at <!--topic/ph hi-d found: [u] id=--><Font fontDef="u"><HyperCmd fontDef="ulink" openURL="http://www.ibm.com/contact/us/">http://www.ibm.com/contact/us/</HyperCmd></Font>. </P>
+    <!--DOC ignoring text 
+    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_5--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#unique_5"/>IBM StoredIQ components</P>
+        <P paraDef="body">The IBM StoredIQ solution consists of these components: the application stack, the gateway, the data
+            server, and optionally the Elasticsearch cluster</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_6"/>Solution components</P>
+        <P paraDef="body">IBM StoredIQ provides three solution components: the gateway, data servers, and application stack
+            (AppStack).</P>
+        
+        <P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Gateway</Font></P>
+        <P paraDef="body">The gateway communicates between the data servers and the application stack. The application stack
+            polls the gateway for information about the data on the data servers. The data servers push the
+            information to the gateway.</P>
+        
+            <P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Data servers</Font></P>
+        <P paraDef="body">A data server obtains the data from supported data sources and indexes it. By indexing this data, you
+            gain information about unstructured data such as file size, file data types, file owners.</P>
+        
+            <P paraDef="body">The data server pushes the information about volumes and indexes to the gateway so it can be
+                communicated to the application stack. Multiple data servers feed into a single gateway.</P>
+        
+            <P paraDef="body">Data servers can be categorized in two types: DataServer - Classic and DataServer - Distributed. A
+            data server of the type DataServer - Classic uses the embedded PostgreSQL database for storing the
+            index. With a data server of the type DataServer - Distributed, the index is stored in an Elasticsearch
+            cluster. Data servers of this type also provide better performance in search queries. They can manage
+            much larger amounts of data than data servers of the type DataServer - Classic, thus making the IBM
+            StoredIQ deployments more scalable.</P>
+        
+        <P paraDef="body">You can have both types of data servers in your IBM StoredIQ deployment.</P>
+        
+            <P paraDef="body">In addition to completing standard administrative tasks, administrators can deploy the IBM StoredIQ
+            Desktop Data Collector and index desktops from the data server.</P>
+        
+        <P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Application stack</Font></P>
+            <P paraDef="body">The application stack provides the user interface for the IBM StoredIQ Administrator, IBM StoredIQ
+                Data Workbench, IBM StoredIQ Insights, and the IBM StoredIQ Policy Manager products.</P>
+        
+            <P paraDef="body">The synchronization feature for integration with a governance catalog is also part of the application
+                stack.</P>
+        
+        <P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Elasticsearch cluster</Font></P>
+            <P paraDef="body">The Elasticsearch cluster attached to a data server of the type DataServer - Distributed provides a
+            single data store for all metadata and content of harvested objects. Indexed data is distributed
+            automatically across the nodes in the cluster. Indexing and queries are load-balanced across all
+            nodes. Nodes can be added dynamically without downtime and the indexing process can use these
+            newly added nodes without further setup.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_7"/>Applications of IBM StoredIQ</P>
+        <P paraDef="body">IBM StoredIQ provides interface applications that help fulfill its solution goals.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_8"/>IBM StoredIQ Data Server</P>
+        <P paraDef="body">IBM StoredIQ Data Server user interface provides access to data server functionality. It
+            allows administrators to view the dashboard and see the status of the jobs and system
+            details. Administrators can manage information about servers and conduct various
+            configurations on the system and application settings. </P>
+        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="images/ibm1.PNG" width="750px" keepAspectRatio="Y"/></AFrame>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_9"/>IBM StoredIQ Administrator</P>
+        <P paraDef="body">IBM StoredIQ Administrator helps you manage global assets common to the distributed infrastructure
+            behind IBM StoredIQ applications.</P>
+        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="images/ibm2.PNG" width="750px" keepAspectRatio="Y"/></AFrame>
+        <P paraDef="body">IBM StoredIQ Administrator provides at-a-glance understanding of the different issues that can crop up
+            in the IBM StoredIQ environment. These views are unique to the IBM StoredIQ Administrator application
+            as they provide an overview of how the system is running. They allow access to various pieces of
+            information that are being shared across applications or allow for the management of resources in a
+            centralized manner.</P>
+        <P paraDef="body">The administrator is the person responsible for managing the IBM StoredIQ. This individual has strong
+            understanding of data sources, indexes, data servers, jobs, infosets, and actions. This list provides an
+            overview as to how IBM StoredIQ Administrator works:</P>
+        
+            <ParaGroup paraGroupDef="ul">
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Viewing data servers and volumes:</Font> Using IBM StoredIQ Administrator, the Administrator can identify
+                    what data servers are deployed, their location, what data is being managed, and the status of each data
+                    server in the system. Volume management is a central component of IBM StoredIQ. IBM StoredIQ
+                    Administrator also allows the Administrator to see what volumes are currently under management,
+                    which data server is responsible for that volume, the state of the volume after indexing, and the amount
+                    and size of information that is contained by each volume. Administrators can also add volumes to and
+                    delete volumes from data servers through this interface.</P>
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1" listLabel="N" numberValue="1" withPrevious="Y">If IBM StoredIQ is configured for integration with Information Governance Catalog, the Administrator
+                        can also manage which volumes are published to the governance catalog.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Scheduling harvests:</Font> Harvesting, which can also be referred to as indexing, is the process or task by
+                    which IBM StoredIQ examines and classifies data in your network. Using IBM StoredIQ Administrator,
+                    harvests can be scheduled, edited, and deleted.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Creating system infosets:</Font> System infosets that use only speci³c indexed volumes can be created and
+                        managed within IBM StoredIQ Administrator. Although infosets are a core component of IBM StoredIQ
+                        Data Workbench, system infosets are created as a shortcut for users in IBM StoredIQ Administrator.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Managing users:</Font> The user management area allows administrators to create users and manage users'
+                        access to the various IBM StoredIQ applications</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Configuration and managing actions:</Font> An action is any process that is taken upon the data that is
+                        represented by the indexes. Actions are run by data servers on indexed data objects. Any errors or
+                        warnings that are generated as a result of an action are recorded as exceptions in IBM StoredIQ Data
+                        Workbench.</P>
+                    <P paraDef="note"><ListLabel><Image file="M:\build-tools\note-images/note.svg" top="-1mm"/></ListLabel><Font fontDef="notetext">Note: </Font>Actions can be created within IBM StoredIQ Administrator and then made available to other IBM
+                        StoredIQ applications such as IBM StoredIQ Data Workbench.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Managing target sets:</Font> Provides an interface that allows the user to set the wanted targets for speci³c
+                        actions that require a destination volume for their actions.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Report:</Font> IBM StoredIQ Administrator provides a number of built-in reports, such as summaries of data
+                        objects in the system, storage use, and the number of identical documents in the system. You can
+                        create custom reports, including Query Analysis Reports for e-discovery purposes, and automatically
+                        email report notifications to administrators and other interested parties.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Auto-classification:</Font> Automated document categorization, what IBM StoredIQ refers to as auto-classification
+                        models, integrates the IBM® Content Classification's classification model into the IBM
+                        StoredIQ infoset-generation process. Data Experts can use IBM Content Classification to train a
+                        classication model, which is then registered with IBM StoredIQ Administrator. The registered
+                        classication model can be applied to an existing infoset in IBM StoredIQ Data Workbench to generate
+                        new metadata for the objects in the infoset. Metadata can be used in rule-based filters to create new
+                        infosets.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Cartridges:</Font> Cartridges are compressed files that contain analysis logic. When you add a cartridge to
+                        IBM StoredIQ AppStack, it can detect new data in documents during indexing and make these new
+                        insights searchable. For example, a sensitive pattern cartridge can enable IBM StoredIQ to detect
+                        passport numbers, phone numbers, and other IDs</P>
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1" listLabel="N">To apply the analysis logic contained in the cartridge, you must run a Step-up Analytics action that uses
+                        the cartridge on an infoset. IBM StoredIQ examines all documents in the infoset, applies the analytics,
+                        and then stores the analysis results in the IBM StoredIQ index</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Managing concepts:</Font> Provides the ability to relate business concepts to indexed data</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Managing Mule scripts:</Font> Helps you to create Mule scripts and upload script packages. These Mule
+                        scripts are used by IBM StoredIQ Policy Manager to create policies using the automation workflow</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">DataServer - Classic:</Font> Data servers can be categorized in two types: DataServer - Classic and
+                        DataServer - Distributed. DataServer - Classic refers to the regular data servers. It uses either the
+                        current PostgreSQL or Lucene index as an index</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">DataServer - Distributed</Font> The distributed data server uses an Elasticsearch cluster instead of an
+                        embedded Postgres database. It increases the scalability and flexibility of the IBM StoredIQ
+                        deployment in a way that it can manage much larger amounts of data. Without adding more data
+                        servers, data that is managed by the IBM StoredIQ deployment can be increased by adding new nodes
+                        to the Elasticsearch cluster. Search queries perform better on DataServer - Distributed.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Connector API SDK:</Font> A connector is a software component of IBM StoredIQ that is used to connect to a
+                        data source such as a network file system and access its data. Using IBM StoredIQ Connector API SDK,
+                        developers of other companies can develop connectors to new data sources outside the IBM StoredIQ
+                        development environment. These connectors can be integrated with a live IBM StoredIQ application to
+                        index, search, manage, and analyze data on the data source.</P>
+                
+            </ParaGroup>
+        
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_10"/>IBM StoredIQ Data Workbench</P>
+        <P paraDef="body">Big data is a pervasive problem, not a one-time occurrence. It is easy for most companies
+            to realize that big data is problematic, but it is hard to identify what problems they
+            have. Big data is all about the unknown, but the unknown cannot be off limits. IBM
+            StoredIQ Data Workbench can help you learn about your data, make educated decisions with
+            your most valuable asset, and turn your company's most dangerous risk into its most
+            valuable asset.</P>
+        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="images/ibm3.PNG" width="750px" keepAspectRatio="Y"/></AFrame>
+        <P paraDef="body">IBM StoredIQ Data Workbench is a data visualization and management tool that helps you to actively
+            manage your company's data. It helps you to determine how much data you have, where it is, who owns
+            it, and when it was last used. When you have a clear understanding of your company's data landscape,
+            IBM StoredIQ Data Workbench helps you take control of data. You can make informed decisions about
+            your data and act on that knowledge by copying, copying to retention, or conducting a discovery export.</P>
+        <P paraDef="body">Here are just some examples of how you can use IBM StoredIQ Data Workbench.</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">You need to find all company email that is sent from or received by Eileen Sideways
+                (esideways@thecompany.com). You can use IBM StoredIQ Data Workbench to find all email and then
+                copy that data to a predefined repository. You can also use IBM StoredIQ Data Workbench to find all of
+                the esideways@thecompany.com email that occurred between specific dates and then make that email
+                available for review</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">As an administrator, you want to rid your networks and storage of unused data. You can use IBM
+                StoredIQ Data Workbench to find all files that were not modified in more than five years.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">You want to find all image files that are created in 2007. Not only can IBM StoredIQ Data Workbench
+                find all image files that were created in 2007. It also shows how much space they occupy on your
+                network.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">A user needs to understand how data about Windows is being retained. Using IBM StoredIQ Data
+                Workbench, you can provide that user with a visual overview of the number of objects that are retained
+                and a breakdown of files per data source. Additionally, you can apply overlays to show the user if those
+                files contain forbidden information such as credit-card numbers or Social Security numbers.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">If IBM StoredIQ is configured accordingly, you can select the infosets and filters that are published to
+                the governance catalog for uni³ed governance of structured and unstructured information. When
+                integrating with Information Governance Catalog, you can also analyze and classify the data governed
+                by IBM StoredIQ based on the data classes that are synchronized from the governance catalog.</P>
+        </ParaGroup>
+           
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_11"/>IBM StoredIQ Insights</P>
+        <P paraDef="body">IBM StoredIQ Insights provides dynamic and interactive filtering for your data with easy access to all
+            metadata and instant plain-text preview of document content for full-text indexed volumes.</P>
+        <P paraDef="body">Faceted search lets you drill down to refine your search results as needed. In addition, you can apply any
+            valid IBM StoredIQ filter query. Tags let you categorize the data for easier management. Visual
+            representations of search results help you gain further insights into your data. Several chart types let you
+            look at and explore data from different perspectives, thus helping you identify patterns and relationships
+            very quickly.</P>
+        <P paraDef="body">With IBM StoredIQ Insights, you can search data that is managed and indexed by a data server of the type
+            DataServer - Distributed. In mixed deployments that have classic and distributed data servers, only the
+            content from distributed data servers will be searchable.</P>
+        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="images/ibm4.PNG" width="750px" keepAspectRatio="Y"/></AFrame>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_12"/>IBM StoredIQ Policy Manager</P>
+        <P paraDef="body">IBM StoredIQ Policy Manager allows users to run mature policies and processes at scale across a wider
+            range of data.</P>
+        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="images/ibm5.PNG" width="750px" keepAspectRatio="Y"/></AFrame>
+        <P paraDef="body">The users can define and run systemwide policies, focusing on the execution of the process rather than
+            understanding or reviewing affected data objects. Additionally, with reports of IBM StoredIQ Policy
+            Manager, you can record what actions were conducted, when they were conducted, and what data was
+            affected by the policy's execution.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_13"/>IBM StoredIQ Desktop Data Collector</P>
+        <P paraDef="body">IBM StoredIQ Desktop Data Collector (also referred to as desktop client) indexes desktops
+            as volumes. The volumes appear in IBM StoredIQ Data Server and in IBM StoredIQ
+            Administrator, where they can be used like any other data source.</P>
+        <P paraDef="body">The data server maintains an index using the information sent by the desktop client. After indexing,
+            desktops - even offline or unreachable ones - can be viewed, searched, or targeted for later policy action.</P>
+    <!--DOC ignoring text 
+    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_14--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#unique_14"/>Planning for deployment</P>
+        <P paraDef="body">When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.</P>
+        <P paraDef="body">In addition to the information in this section, review the requirements detailed in the
+            IBM Software Product Compatibility Reports (SPCR) tool at: <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=CC1291B0F4AF11E3ACBD4447721DA353">Software Product Compatibility Reports: StoredIQ
+                7.6</HyperCmd></P>
+        <P paraDef="body">If you plan to use IBM StoredIQ for Legal Identification and Collection to create and
+            manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also check
+            the system requirements for <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=8A0331A0C50D11E58D9C0D684F363D68">StoredIQ for Legal at: Software Product Compatibility
+                Reports: StoredIQ for Legal 2.0.3</HyperCmd></P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_15"/>Generate customized reports with the SPCR tool</P>
+        <P paraDef="body">Go to the page at <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/software/reports/compatibility/clarity/index.html">Software Product Compatibility Reports</HyperCmd> to
+            create a high-level report for supported operating systems, related software,
+            hypervisors, and supported translations for any product. You can also create an in-depth
+            report to get detailed system requirements, hardware requirements, and end of service
+            information for each product. You can search for a product in all of the report types
+            and reports are generated based on your query values.</P>
+            <P paraDef="body">The following report types are the most commonly generated reports from software product compatibility
+            reports:</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_16"/>Detailed system requirements</P>
+        <P paraDef="body">When you select your product version for the detailed system requirements report, you can set a
+            report filter for <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Operating system platforms</Font>, <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Product components</Font>, and <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Capabilities</Font>, including
+            prerequisites and support software. After you view the report, you can save it as a URL to generate
+            anytime or download it as a PDF.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_17"/>Hardware requirements</P>
+        <P paraDef="body">When you select your product version for the hardware requirements report, you can set a report filter
+            by the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Operating system families</Font> option. Set the operating system filter by selecting some or all of
+            the operating systems that are supported by your product. After you view the report, you can save it
+            as a URL to generate anytime or download it as a PDF.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_18"/>End of service</P>
+        <P paraDef="body">The end of service report shows the service window of the products that you specify over
+            an eightyear span. For example, you can find out when your product is scheduled to go
+            out of service.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_19"/>Open Virtual Appliance (OVA) configuration requirements</P>
+        <P paraDef="body">IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all fix pack levels) or
+            VMware ESXi 6.0 (all fix pack levels) environments. You must have a virtual infrastructure that meets the
+            IBM StoredIQ hardware requirements.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_20"/>Application stack</P>
+        
+            <ParaGroup paraGroupDef="ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">vCPU: 2</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Memory: 4 GB</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Storage:
+                <ParaGroup paraGroupDef="ul_ul">
+                    <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Primary disk (vmdisk1): 21 GB</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Data disk (vmdisk2): 10 GB</P>
+                </ParaGroup></P>
+        </ParaGroup>
+        
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_21"/>Gateway server</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">vCPU: 4</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Memory: 8 GB</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Storage:
+            <ParaGroup paraGroupDef="ul_ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Primary disk (vmdisk1): 100 GB</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Data disk (vmdisk2): 75 GB</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Swap disk (vmdisk3): 40 - 100 GB</P>
+            </ParaGroup></P>
+        </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_22"/>DataServer - Classic</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">vCPU: 4</P>
+                <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1" listLabel="N" numberValue="1" withPrevious="Y">Even though increasing the number of vCPUs increases performance, the actual benefits depend on
+                    whether the specific host is oversubscribed or not.</P>
+            <!--topic/li--><!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1">Memory: 16 GB</P>
+                <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1" listLabel="N">While the minimum value works under light-load condition, as the load increases, the data server
+                    quickly starts using swap space. For high load situations, increasing RAM beyond 16 GB can benefit
+                    performance. Monitoring swap usage can provide insight.</P>
+            <!--topic/li--><!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1">Storage:</P>
+            <!--p element nested in list at nest level 6--><ParaGroup paraGroupDef="ul_ul">
+                <!--topic/li--><!--p element nested in list at nest level 9--><!--makeListPara p--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</P>
+                    <!--p element nested in list at nest level 9--><!--makeListPara p--><P paraDef="unorderedlistitem2" listLabel="N" numberValue="1" withPrevious="Y">This virtual disk has an associated VMDK that contains the IBM StoredIQ operating code. Do not
+                        change its size.</P>
+                <!--p element nested in list at nest level 9--><!--makeListPara p--><P paraDef="unorderedlistitem2" listLabel="N" numberValue="1" withPrevious="Y">
+                    <!--HAZARD STATEMENT--><Tbl tblDef="hazardstatement" columns="1"><Row type="header" fillColor=""><Cell columnSpan="remainder"><P paraDef="hazardstatement"><ListLabel><Image file="M:\build-tools\note-images/note.svg" top="-1mm"/></ListLabel>
+					
+					 Note</P></Cell></Row><Row><Cell><ParaGroup paraGroupDef="ul_ul">
+                        <!--topic/li--><P paraDef="typeofhazard">Attention</P>
+                        <!--topic/li--><P paraDef="howtoavoid">If you delete the primary disk, you delete the operating system, and the IBM
+                            StoredIQ software; the virtual machine might need to be scrapped.</P>
+                    </ParaGroup></Cell></Row></Tbl></P>
+                <!--topic/li--><!--p element nested in list at nest level 9--><!--makeListPara p--><P paraDef="unorderedlistitem2">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</P>
+                    <!--p element nested in list at nest level 9--><!--makeListPara p--><P paraDef="unorderedlistitem2" listLabel="N">This virtual disk can be resized according to expectations on the amount of harvest data to be
+                        stored. For purposes of estimation, the index storage requirement for metadata is about 30 GB
+                        per TB of managed source data. Full-text indexing requires an extra 170 GB per TB. Therefore,
+                        the default data disk size is targeted for managing 10 TB of source information.</P>
+                <!--topic/li--><!--p element nested in list at nest level 9--><!--makeListPara p--><P paraDef="unorderedlistitem2">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</P>
+                    <!--p element nested in list at nest level 9--><!--makeListPara p--><P paraDef="unorderedlistitem2" listLabel="N">When under load, the data server can use much RAM; therefore, having ample swap space is
+                        prudent. The minimum swap size is equal to the amount of RAM configured for the virtual
+                        machine. For best performance under load, place this disk on the highest speed data store
+                        available to the host.</P>
+                </ParaGroup>
+        </ParaGroup>
+        <P paraDef="body">The general size limits for a data server are 150 million objects or 500 defined volumes, whichever
+            limit is reached first. Assuming an average object size of 200 KB equals about 30 TB of managed
+            storage across 30 volumes of 5 million objects each, the index storage requirement for metadata on
+            ~30 TB of storage that contains uncompressed general office documents is ~330 GB (11 GB per TB).
+            Add 100 GB per TB of managed storage for full-text or snippet index. For example, to support 30 TB
+            of storage that is indexed for metadata, you need 8 TB indexed for full-text search and extracted text
+            (snippet cache) of 8 TB for auto-classification. A total of 1.9 TB of storage is required (metadata: 330
+            GB, full-text: 800 GB, snippet cache: 800 GB).</P>
+        <P paraDef="body">Data-server performance is impacted by the IOPS available from the storage subsystem. For each
+            data server under maximum workload, at least 650 IOPS generally delivers acceptable performance.
+            In the situations where there is a high load on the system, the IOPS that is used can reach up to 7000
+            with main write operations.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_23"/>DataServer - Distributed</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">vCPU: 4</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Memory: 16 GB</P>
+            <!--topic/li--><!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1">Storage:</P>
+            <!--p element nested in list at nest level 6--><ParaGroup paraGroupDef="ul_ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</P>
+            </ParaGroup>
+        </ParaGroup>
+        <P paraDef="body">If you deploy this type of data server, you must also deploy an Elasticsearch cluster with at least one
+            node. If you deploy a cluster with more nodes, each of the Elasticsearch nodes must meet the listed
+            requirements.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_24"/>Each Elasticsearch node</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">vCPU: 1</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Memory: 32 GB</P>
+            <!--topic/li--><!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem1">Storage:</P>
+            <!--p element nested in list at nest level 6--><ParaGroup paraGroupDef="ul_ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Primary disk (vmdisk1): 100 GB</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Data disk (vmdisk2): 1 TB</P>
+            </ParaGroup>
+        </ParaGroup>
+        <P paraDef="body">The required memory depends on the index size that is handled by the data node. For a better
+            performance, consider increasing the memory. The total memory available to the node must be
+            distributed between the host operating system, the Elasticsearch java heap space, and the kernel file
+            system caches. For example, if the system has 32 GB memory, 2 GB must be allocated for the host
+            operating system, 15 GB for the java heap space, and the remaining 15 GB for the file system caches.</P>
+        <P paraDef="body">The data disk (vmdisk2) can be resized according to expectations on the amount of harvest data to be
+            stored.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_25"/>Network and port requirements</P>
+        <P paraDef="body">For proper communication, the IBM StoredIQ components must be able to connect to each other.</P>
+        <P paraDef="body">You must enable network connectivity from the following locations:</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">The data server IP address to the gateway IP address on port 11103</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">The gateway IP address to and from the application stack IP address on port 8765 and 5432</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Ports 80, 443, and 22 from the administrative workstation to the application stack and data server IP
+                addresses</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Port 22 from the administrative workstation to the gateway IP address.</P>
+        </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_26"/>TCP: port ranges for the firewall</P>
+        <P paraDef="body">To ensure the network access for desktop volumes, the following port ranges must be open through a
+            firewall.</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">21000-21004</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">21100-21101</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">21110-21130</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">21200-21204</P>
+        </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_27"/>Default open ports</P>
+        <P paraDef="body">The following ports are open by default on the IBM StoredIQ.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_28"/>SSH port 22</P>
+        <P paraDef="body">By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure Shell
+            (SSH) communication and allows remote administration access to the VM. In general,
+            traffic is encrypted using password authentication. To add a layer of security, you can
+            establish key-based authentication for passwordless SSH logins to any of the IBM
+            StoredIQ nodes in your environment as described in <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=51">“Configuring SSH key-based authentication” on page
+                45</HyperCmd>.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_29"/>Default open ports on the AppStack</P>
+        <P paraDef="body">
+            <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="2" width="100%" topRule="all" bottomRule="all" startRule="all" endRule="all">
+                    <TblColumn width="1*"/>
+                    <TblColumn width="1*"/>
+                    <Row type="header">
+                            <Cell verticalTextAlign="middle"><P>Port number</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>Protocol</P></Cell>
+                        </Row>
+                    <Row type="body">
+                            <Cell verticalTextAlign="middle"><P>22</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>80</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>443</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        </Row>
+                </Tbl>
+        </P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_30"/>Default open ports on the IBM StoredIQ data server</P>
+        <P paraDef="body">
+            <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="3" width="100%" topRule="all" bottomRule="all" startRule="all" endRule="all">
+                    <TblColumn width="1*"/>
+                    <TblColumn width="1*"/>
+                    <TblColumn width="1*"/>
+                    <Row type="header">
+                            <Cell verticalTextAlign="middle"><P>Port number</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>Protocol</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>Service</P></Cell>
+                        </Row>
+                    <Row type="body">
+                            <Cell verticalTextAlign="middle"><P>22</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>PROD-ssh</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>80</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>PROD-web</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>443</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>PROD-https (UI and Web Services APIs)</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>11103</P></Cell>
+                            <Cell rowSpan="2" verticalTextAlign="middle"><P>tcp</P></Cell>
+                            <Cell rowSpan="2" verticalTextAlign="middle"><P>PROD-transport (IBM StoredIQ transport services;
+                                communication between the gateway and the data server)</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>11104</P></Cell>
+                        </Row>
+                </Tbl>
+        </P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_31"/>Enable or disable ports or services on the IBM StoredIQ data server</P>
+        <P paraDef="body">To manage ports, you can use the /usr/local/storediq/bin/util/port_handler.pyc script with
+            the appropriate parameter:</P>
+        <P paraDef="body"><P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -parameter</P></P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_32"/><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">-s</Font></P>
+        <P paraDef="body">To list the current rules in iptables</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_33"/><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">-l</Font></P>
+        <P paraDef="body">To list the supported services</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_34"/><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">-d port_number|'port_range'</Font></P>
+        <P paraDef="body">To delete a port or a range of port numbers from iptables, for example:</P>
+        <P paraDef="body"><P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'</P></P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_35"/><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">-e 'service_name'</Font></P>
+        <P paraDef="body">To enable a specific service, for example, to enable HTTPS services:</P>
+        <P paraDef="body"><P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'</P></P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_36"/><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">-d 'service_name'</Font></P>
+        <P paraDef="body">To disable a specific service, for example, to disable HTTPS services:</P>
+        <P paraDef="body"><P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'</P></P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_37"/>Default open ports on the nodes in the Elasticsearch cluster</P>
+        <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="3" width="100%" topRule="all" bottomRule="all" startRule="all" endRule="all">
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <Row type="header">
+                        <Cell verticalTextAlign="middle"><P>Port number</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Protocol</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Service</P></Cell>
+                    </Row>
+                <Row type="body">
+                        <Cell verticalTextAlign="middle"><P>21</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>ftp</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>22</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>sshd</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>80</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P/></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>443</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P/></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>8888</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>SimpleHTTPServer (used for
+                            copying the <Font fontDef="codeph">siqelasticsearch.yml</Font>
+                            configuration file from the
+                            Elasticsearch node to the data
+                            server)</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>9200</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp6</P></Cell>
+                        <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 6--><P>docker-proxy (listening for REST
+                            requests)</P><!--p element nested in table at nest level 6--><P>You can restrict access to this port by either enabling Search Guard
+                                or by setting up a firewall. For more information, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=57">“Securing Elasticsearch cluster
+                                    communication with Search Guard” on page 51</HyperCmd> or <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=58">“Restricting access to port 9200
+                                    on Elasticsearch nodes” on page 52.</HyperCmd></P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>9300</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp6</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>docker-proxy (internode
+                            communication)</P></Cell>
+                    </Row>
+            </Tbl>
+        <P paraDef="body"/>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_38"/>Default open ports on the IBM StoredIQ gateway</P>
+        <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="3" width="100%" topRule="all" bottomRule="all" startRule="all" endRule="all">
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <Row type="header">
+                        <Cell verticalTextAlign="middle"><P>Port number</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Protocol</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Service</P></Cell>
+                    </Row>
+                <Row type="body">
+                        <Cell verticalTextAlign="middle"><P>22</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>PROD-ssh</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>80</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>PROD-web</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>443</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>PROD-https (UI and Web
+                            Services APIs)</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>5432</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>PROD-postgres</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>5434</P></Cell>
+                        <Cell rowSpan="6" verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell rowSpan="6" verticalTextAlign="middle"><P>PROD-transport (IBM StoredIQ
+                            transport services;
+                            communication between the
+                            gateway and the data server)</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>8765</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>7766</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>11102</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>11103</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>11104</P></Cell>
+                    </Row>
+            </Tbl>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_39"/>Supported chain and rules on the IBM StoredIQ gateway</P>
+        <P paraDef="body">In iptables, the following firewall and chain rules are defined:</P>
+        <P paraDef="body"><P paraDef="lines" whiteSpaceCollapse="N">'PROD-transport':['5434','8765','7766','11102','11103','11104'],<br/>            'PROD-https':['443'],'PROD-ssh':['22'],<br/>            'PROD-web':['80'],<br/>            'PROD-postgres':[’5432’]</P></P>
+        <P paraDef="body"><P paraDef="lines" whiteSpaceCollapse="N">'desktop' service:<br/>            'PROD-broker':['21000'],<br/>            'PROD-collectionsvc':['21300:21399'],<br/>            'PROD-desktopupgrade':['21004'],<br/>            'PROD-objlistmgr':['21100:21199'],<br/>            'PROD-objlistsvc':['21200:21299'],<br/>            'PROD-registration':['21001'],<br/>            'PROD-session':['21002'],<br/>            'PROD-task':['21003'],</P></P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_40"/>Open ports for desktop client access to the data server</P>
+        <!--Using default mapping of class - topic/section task/context  on element context to body paragraph --><P paraDef="body">To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:
+        </P>
+        <ParaGroup paraGroupDef="ol">
+            <!--topic/li--><!--makeListPara step--><P paraDef="step" numberValue="1" withPrevious="Y">
+                Log in to the data server as root and run this command:
+                <P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</P>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run this command: <Font fontDef="codeph">iptables -L INPUT</Font>
+                <P paraDef="info">In the output of the command, check the list position of the rule that is named PROD-reject, for
+                    example, the 6th position on the list.</P>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run this command: <Font fontDef="codeph">iptables -A INPUT -j PROD-reject</Font>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run this command: <Font fontDef="codeph">iptables -D INPUT <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">list_position</Font></Font>
+                <P paraDef="info"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">list_position</Font> is the position number of the PROD-reject rule that you determined in step 2.</P>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run the following command:
+                <P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</P>
+            </P>
+        </ParaGroup>
+        <!--Using default mapping of class - topic/section task/tasktroubleshooting  on element tasktroubleshooting to body paragraph --><P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Tip:</Font> These steps are required only on an IBM StoredIQ OVA deployed system. The correct ports are open
+            on an upgraded system.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_41"/>Environment sizing guidelines</P>
+        <P paraDef="body">To size an environment precisely, you must understand the factors such as harvest
+            frequency, complexity of the source, and use case scenarios that drive application use
+            and action execution.</P>
+        <P paraDef="body">The general design guidelines for IBM StoredIQ are as follows:</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">For data servers of the type DataServer - Classic: <ParaGroup paraGroupDef="ul_ul">
+                    <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">One data server for up to 30 TBs of data (which can vary based on the number
+                        of volumes, objects per volume, and object types).</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Up to 500 volumes per data server.<!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="unorderedlistitem2">Tip: When you're sizing an environment
+                            that includes Sharepoint data sources, keep in mind that volumes must be
+                            defined at Sharepoint site collection level, not the Sharepoint server
+                            level.</P></P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Up to 150 million objects per data server.</P>
+                </ParaGroup></P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">One gateway per 50 data servers.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">One application server.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">NFS is slightly faster than CIFS for metadata only, but assume CIFS/NFS even for
+                this exercise.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Full-content processing of file (for example, .ZIP, .RAR, .GZ) and email archive
+                (.PST, .NSF, .EMX) processing are slower as items must be extracted from the
+                archives. If there is a significant number of these files in the file system and
+                they are not excluded from content processing, the full-content processing rate can
+                be too high. Until you have an initial index of the file system, you do not know how
+                to weigh full-content processing of archives.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">An object/time metric is appropriate for metadata only NOT computing a hash, membership in the
+                National Institute of Standards and Technology (NIST) or enumerating objects that are contained in
+                archives. Converting it to a bytes/time metric is a function of the average object size and might vary
+                tremendously. An average object size of 250 KB was used for the metric that is provided earlier.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">A bytes/time metric is appropriate for metadata-only computing a hash and full-content processing.
+                The object per second rate can vary tremendously depending on the object type and sizes encountered.
+                For example, processing an email or file archive is much more expensive than a PDF document.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Metadata-only not computing a hash, membership in the NIST list, or enumerating objects that are
+                contained in archives is requesting only the file-attribute information from the NAS. Individual files are
+                not opened and read. The processing rate is high, but that does not translate into a large amount of data
+                that traverses a network between the NAS and data server. The bytes/time rate does not translate into
+                bytes served by the NAS and sent over the network.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Metadata-only computing a hash, membership in the NIST list, or enumerating objects that are
+                contained in archives opens and reads the contents of each file. The content of all requested files
+                traverses the network between the NAS and data server. The maximum load that the data server can
+                place on a NAS is metadata-only processing. It requires all file content to be read to compute a hash or
+                enumerate objects that are contained in archives. The bytes/time rate translates into bytes served up
+                by the NAS and network traffic that must be considered.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Full-content processing opens and reads the contents of each file to extract all text. The content of all
+                requested files traverses the network between the NAS and data server. The processing time to
+                enumerate archives, extract text, index words, and extract entities on the data server reduces the rate
+                that data is requested from a NAS compared to metadata-only with full hash. The bytes/time rate
+                translates into bytes served up by the NAS and network traffic that must be considered.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">The interrogator process count on the data server for "metadata only not reading all content indexing" is
+                set to eight for optimal performance.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">The interrogator process count for all other processing that involves reading all content default setting
+                is four per data server.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">The interrogator count can be viewed as the number of client connections that are made to a data
+                source actively requesting data. It is important for capacity planning for the data source.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">The data servers are assumed to be "network close" to the NAS data sources. Network latency under 10
+                ms with at least 1000 Mbps bandwidth is assumed (connected through local area network). The data
+                servers need a low latency high-bandwidth connection to a NAS data source for acceptable indexing
+                performance.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">The gateway and application stack can be located remotely from the data servers. Network connections
+                with latency greater than 10 ms and bandwidth of at least 2+ Mbps are acceptable.</P>
+
+        </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_42"/>VMware requirements</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">VMware vSphere v5.0 and fix packs or v6.0 and fix packs.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">VMware ESXi v5.0 and fix packs, v6.0 and fix packs, or v6.5 and fix packs.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">VMware virtual machine hardware version 8.0 or later. For more information, see
+                        <HyperCmd fontDef="ulink" openURL="https://www.vmware.com/support/pubs/">the VMware product documentation</HyperCmd>.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">The appropriate VMware license to enable the required processor cores and memory for the virtual
+                machine.</P>
+        </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_43"/>Stack-provisioning prerequisites</P>
+        <P paraDef="body">Before a deployment, verify that you meet these prerequisites.</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">At least one physical server with sufficient processor, RAM, and hard disk configuration for the planned
+                management project.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">VMware ESX or ESXi on CD/DVD or USB drive.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">IP addresses, cables, and physical switch ports for at least the ESXi/ESX interface, one data server, one
+                gateway server, and one application stack.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Network connectivity that is enabled from the following locations:
+            <ParaGroup paraGroupDef="ul_ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">The data server IP address to the gateway IP address on port 11103</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">The gateway IP address to and from the application stack IP address on port 8765 and 5432</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Ports 80, 443, and 22 from the administrative workstation to the application stack and data server IP
+                    addresses</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Port 22 from the administrative workstation to the gateway IP address.</P>
+            </ParaGroup></P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Network connectivity that is enabled from the data server IP address to any data sources to be
+                harvested and managed.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">A management station computer or notebook from where the load-management work is done.</P>
+        </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_44"/>License usage metrics</P>
+        <P paraDef="body">Using the IBM License Metric Tool, you can generate license consumption reports that count IBM
+            StoredIQ license usage.</P>
+        <P paraDef="body">IBM StoredIQ is licensed by Resource Value Unit (RVU). RVU calculation is based on terabytes IBM
+            StoredIQ.</P>
+        <P paraDef="body">On the IBM StoredIQ application stack, a license program writes usage information to an IBM Software
+            Licence Metric Tag (SLMT) file. This file has the extension .slmtag and can be read periodically by the IBM
+            License Metric Tool (ILMT) after it has been configured to scan for these files. You can generate reports
+            that summarize usage.</P>
+        <P paraDef="body">By default, the license program retrieves the size of the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">All Data Objects</Font> infoset in terabytes once per day
+            and writes this information to the /var/siq/ilmt/3cd1469042433ee7010fe09f661dc67b.slmtag
+            file. The .slmtag file can store information up to a maximum file size of 1 MB, after which the file is
+            archived and a new log file is created. A maximum of 10 log files are kept.˂</P>
+        <P paraDef="body">The .slmtag file contains usage information in the following format, where new metric records are
+            appended to the end of the file:</P>
+        <P paraDef="lines" whiteSpaceCollapse="N"><br/>            &lt;SchemaVersion&gt;2.1.1&lt;/SchemaVersion&gt;<br/>            &lt;SoftwareIdentity&gt;<br/>                    &lt;PersistentId&gt;cb98e260a2a14872902578de1b8e2016&lt;/PersistentId&gt;<br/>                    &lt;Name&gt;IBM StoredIQ Data Assessment&lt;/Name&gt;<br/>                    &lt;InstanceId&gt;/var/siq/ilmt&lt;/InstanceId&gt;<br/>            &lt;/SoftwareIdentity&gt;<br/>            &lt;Metric logTime="2019-01-25T15:58:26+00:00"&gt;<br/>                    &lt;Type&gt;TERABYTE&lt;/Type&gt;<br/>                    &lt;SubType&gt;All Data Objects&lt;/SubType&gt;<br/>                    &lt;Value&gt;0.005&lt;/Value&gt;<br/>                    &lt;Period&gt;<br/>                            &lt;StartTime&gt;2019-01-25T15:58:26+00:00&lt;/StartTime&gt;<br/>                            &lt;EndTime&gt;2019-01-25T15:58:26+00:00&lt;/EndTime&gt;<br/>                    &lt;/Period&gt;<br/>            &lt;/Metric&gt;</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_45"/>Integration with IBM License Metric Tool</P>
+        <P paraDef="body">Versions of IBM License Metric Tool (ILMT) that support IBM Software License Metric Tag (SLMT) can
+            generate license consumption reports. An ILMT agent can scan in configurable intervals the file system
+            for .slmtag files, collect information, and send it to the corresponding ILMT server. ILMT reports the
+            number of terabytes managed by IBM StoredIQ. This number is to be used as input for the RVU License
+            Conversion Table specified in the license information (li_languagecode file) that comes with IBM
+            StoredIQ. On the application stack, you can find the license information in the License directory.</P>
+        <P paraDef="body">For more information about using IBM License Metric Tool, see the <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/knowledgecenter/SS8JFY_9.2.0/com.ibm.lmt.doc/welcome/LMT_welcome.html">IBM License Metric Tool documentation</HyperCmd>.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_46"/>Security</P>
+        <P paraDef="body">Plan and implement specific security measures to protect the application and the data it manages,
+            especially when you deploy IBM StoredIQ into sensitive environments.</P>
+        <P paraDef="body">IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_47"/>Federal Information Processing Standard (FIPS)</P>
+        <P paraDef="body">FIPS is a standard recommended by the National Institute of Standards and Technology (NIST) and the
+            US Federal Government. It ensures certain security standards are met for software or hardware
+            components deployed at US government sites. Enabling FIPS ensures that the SSL/TLS engine that is
+            compliant with the US Government recommendation is used. IBM StoredIQ supports FIPS Level 1.</P>
+        <P paraDef="body">Secure gateway communication can be enabled without FIPS. If FIPS is enabled, IBM StoredIQ uses FIPS
+            compliant versions of OpenSSL.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_48"/>Secure communication and encryption of data in motion</P>
+        <P paraDef="body">In a production environment, you should configure or install certificates on the AppStack
+            to enable HTTPS communication and to enable encryption of data in motion between the
+            browser and the AppStack. You can to this during installation and initial configuration
+            or at any time afterward. For details, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=41">the instructions for configuring
+            certificates</HyperCmd>.</P>
+        <P paraDef="body">The gateway handles the communication between the data servers and the application stack.
+            By default, the communication between the gateway, any data servers, and the AppStack is
+            in plain text and is not encrypted. If your enterprise security policy mandates
+            encryption of data in motion, enable secure gateway communication. In this case, secure
+            gateway communication must be configured on all three IBM StoredIQ components. You can
+            enable secure gateway communication during installation and initial configuration or at
+            any time afterward. For details, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=60">“Managing the status of secure gateway communication”
+                on page 54</HyperCmd>.</P>
+        <P paraDef="body">IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
+            environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
+            encrypt the communication between the nodes within the Elasticsearch cluster but not for encrypting the
+            communication between the data server and the Elasticsearch cluster.</P>
+        <P paraDef="body">To secure the communication between the data server and the Elasticsearch cluster and the
+            communication within the Elasticsearch cluster likewise, you can enable Search Guard.
+            For more information, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=57">“Securing Elasticsearch cluster communication with
+                Search Guard” on page 51</HyperCmd>. If you don't want to do that but still want to
+            restrict client access to port 9200 on the Elasticsearch nodes, you can set up the
+            firewall accordingly. For more information, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=58">“Restricting access to port 9200 on Elasticsearch
+                nodes” on page 52</HyperCmd>.</P>
+        <P paraDef="body">If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:</P>
+        <P paraDef="body">TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256</P>
+        <P paraDef="body">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</P>
+        <P paraDef="body">You can configure these cipher suites in the configuration files listed in <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=47">the list of key and certificate files</HyperCmd>. However,
+            if you run the utilities for enabling stunnel, you might need to make the respective
+            configuration changes again.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_49"/>Encryption of data at rest</P>
+        <P paraDef="body">Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the Elasticsearch
+            indexes are stored is encrypted by default. IBM StoredIQ uses Linux Unified Key Setup
+            (LUKS) for disk encryption. For details about key management, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=47">“Key and certificate management” on page
+            41</HyperCmd>.</P>
+        <P paraDef="body">Optionally, you can encrypt the application data on the IBM StoredIQ application stack.
+            For more information, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=56">“Enabling encryption of IBM StoredIQ AppStack
+                application data” on page 50</HyperCmd>.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_50"/>Network isolation</P>
+        <P paraDef="body">If full-text harvesting and Step-up Analytics actions (cartridges) are applied, Elasticsearch indexes can
+            contain potentially sensitive content. Therefore, you should deploy the Elasticsearch nodes in an isolated
+            location on the network (for example, as an enclave or behind a firewall) that is properly secured
+            according to the sensitivity of the data being harvested. Only the IBM StoredIQ application stack and data
+            servers should be allowed to communicate with the Elasticsearch nodes.</P>
+        <P paraDef="body">Also, any data servers and the gateway should be deployed in an isolated network location to allow for
+            communication with authorized clients only.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_51"/>Access control</P>
+        <P paraDef="body">The following administrative accounts are required. The builder and siqadmin accounts are
+            IBM StoredIQ-specific accounts. For more information about these accounts, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=23">“Default user accounts” on page 17</HyperCmd>.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_52"/><Font fontDef="codeph">root</Font> and builder accounts on the Elasticsearch cluster nodes</P>
+        <P paraDef="body">Remote login for root can be disabled. However, local root login is required, either log in as root or
+            use the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">su</Font> command to obtain root permissions temporarily.</P>
+        <P paraDef="body">You set the passwords for the root and builder accounts during the configuration process when
+            you start the VM for the first time. You can change these passwords anytime.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_53"/><Font fontDef="codeph">siqadmin</Font> account on the AppStack</P>
+        <P paraDef="body">Administration of the AppStack usually does not require direct root access. For day-to-day
+            administration, the siqadmin account can be used.</P>
+        <P paraDef="body">You set the password for the siqadmin account during the configuration process when you start the
+            VM for the first time. You can change this password anytime.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_54"/>Default user accounts</P>
+        <P paraDef="body">IBM StoredIQ comes with a set of default user accounts.</P>
+        <P paraDef="body">For security reasons, change the passwords for these default accounts after the
+            installation is complete so that they are unique and different from the default values.
+            The new password must be 8 to 64 characters long and must contain characters from at
+            least three of these categories:</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">Uppercase letters: A - Z</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Lowercase letters: a - z</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Digits: 0 - 9</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Punctuation marks or special characters: . : = * ˆ / $ # _ + @ &amp; % -</P>
+        </ParaGroup>
+        <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="3" width="100%" topRule="all" bottomRule="all" startRule="all" endRule="all">
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <Row type="header">
+                        <Cell verticalTextAlign="middle"><P>Account</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Default password</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Description</P></Cell>
+                    </Row>
+                <Row type="body">
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">admin</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">admin</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Administrative account for accessing IBM StoredIQ Data Server. Use
+                            this account for the initial setup of the data server and to create
+                            further administrative accounts for routine administration. Change the
+                            password in IBM StoredIQ Data Server under <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Administration &gt;
+                                Configuration &gt; Manage users</Font>.</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">audituser</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">Passw0rd!</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 5--><P>Account for accessing the audit database on the AppStack.</P><!--p element nested in table at nest level 5--><P>Change the password by running the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">change_audituser_password</Font>
+                                script as siqadmin user on the AppStack.</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">builder</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><P>None. Password is set during initial configuration.</P></Cell>
+                        <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 5--><P>Account for setting up and configuring the Elasticsearch
+                                cluster.</P><!--p element nested in table at nest level 5--><P>You can change the password by using the Linux <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">passwd</Font>
+                                command.</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">reportuser</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">St0red1q</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 5--><P>Account for accessing the report database on the AppStack.</P><!--p element nested in table at nest level 5--><P>Change the password by running the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">change_reportuser_password</Font>
+                                script as siqadmin user on the AppStack.</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">siqadmin</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">Passw0rd!</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 5--><P>Administrative account for managing the AppStack server. For more
+                                information, see the administration guide.</P><!--p element nested in table at nest level 5--><P>With new installations, you are prompted for a new password during
+                                the initial configuration of the AppStack. In updated deployments,
+                                change the password by using the Linux <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">passwd</Font>
+                            command.</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">superadmin</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><P><Font fontDef="codeph">admin</Font></P></Cell>
+                        <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 5--><P>Administrative account for accessing IBM StoredIQ Administrator
+                                and IBM StoredIQ Data Server. Use this account for the initial setup
+                                of IBM StoredIQ and to create further administrative accounts for
+                                routine administration so that their actions can be audited.</P><!--p element nested in table at nest level 5--><P>Change the password in IBM StoredIQ Administrator: go to Users and
+                                edit the superadmin account.</P><!--p element nested in table at nest level 5--><P>The superadmin account has access to all IBM StoredIQ applications on
+                                the application stack. To switch applications, click the triangle
+                                arrow icon and select the application that you want to access from
+                                the list of the available applications.</P></Cell>
+                    </Row>
+            </Tbl>
+
+    <!--DOC ignoring text 
+    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_55--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#unique_55"/>Deploying IBM StoredIQ</P>
+        <P paraDef="body">IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual host environment.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_56"/>Deploying the virtual appliances</P>
+        <!--PASS-THRU: context @class=- topic/section task/context --><P paraDef="body">Use VMware vSphere Client to deploy the virtual appliances to an ESX server.
+                Deploy OVAs for the gateway, the data server, and the application stack, preferably
+                in this order. If an Elasticsearch cluster is also being deployed, those OVAs must
+                be deployed first.</P>
+            <P paraDef="body">Ensure that all prerequisites for the deployment described in the planning section
+                are met and that the required software packages are available on your local system
+                before you start this task.</P>
+            <P paraDef="body">Download the latest version of IBM StoredIQ from either IBM Fix Central or IBM
+                Passport Advantage®. For information about the package names and part numbers and
+                the links to the proper download locations, see the <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/download-ibm-storediq-version-76019">download document</HyperCmd>.</P>
+            <P paraDef="body">The number of Elasticsearch OVAs deployed depends on the planned size of your
+                Elasticsearch cluster. The default setup is a three-node cluster. Each Elasticsearch
+                node requires a separate OVA deployment.</P>
+            <P paraDef="body">The number of data server OVAs deployed depends on the number of data servers needed.
+                Each data server requires a separate OVA deployment.</P>
+        <ParaGroup paraGroupDef="ol">
+            <!--topic/li--><!--makeListPara step--><P paraDef="step" numberValue="1" withPrevious="Y">
+                Connect to the ESX server or vCenter server.
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Open VMware vSphere Client.
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">File &gt; Deploy OVF Template</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Deploy OVF Template</Font> wizard, complete these steps.
+                <ParaGroup paraGroupDef="ol_ol">
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep" numberValue="1" withPrevious="Y">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Select source</Font> page, click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Local file</Font>, and then
+                            browse to and select the appropriate OVF. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Review details</Font> page, review the OVF template
+                            details.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        These storage requirements are critical and will be used to select a
+                            data store during deployment. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font> to proceed.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Select name and folder</Font> page, enter a name for the
+                            deployed template or use the default name. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Select a resource</Font> page, select the resource pool
+                            where the deployed OVF template runs. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Select storage</Font> page, select a data store on which to
+                            store the deployed OVF template files. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Disk Format</Font> list, select the disk format to be
+                            deployed. Note that although <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Thin Provision</Font> saves disk space, it
+                            can negatively affect performance. If possible, select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Thick
+                                Provision Lazy Zeroed</Font>. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Network Mapping</Font>, map the network to the appropriate
+                            network. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        Within the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Ready to Complete</Font> page, review the deployment
+                            settings. Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Finish</Font> to complete the Deploy OVF Template.
+                    </P>
+                    <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                        At this point, you can select the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Power on</Font> check box to turn on
+                            the VM after deployment is complete.
+                    </P>
+                </ParaGroup>
+                <P paraDef="info"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Important:</Font> If your IBM StoredIQ environment includes an Elasticsearch
+                    cluster, do not select this option when you're deploying the data server OVA.
+                    The Elasticsearch cluster setup must be complete before you run the data server
+                    first-boot process.</P>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Repeat steps 3 and 4 for each OVA.
+            </P>
+        </ParaGroup>
+        <!--PASS-THRU: tasktroubleshooting @class=- topic/section task/tasktroubleshooting --><P paraDef="body">Configure the components of your IBM StoredIQ environment in this
+                order:</P><ParaGroup paraGroupDef="ol">
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">Elasticsearch cluster (if applicable)</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Gateway</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">One or more data servers</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Application stack</P>
+            </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_57"/>Deploying IBM StoredIQ on Microsoft Hyper-V</P>
+        <!--PASS-THRU: context @class=- topic/section task/context -->
+        <P paraDef="body">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server,
+            and application stack can be installed on Microsoft Hyper-V. This option is not
+            supported for the Elasticsearch virtual appliance.</P>
+        <P paraDef="body">Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party software.
+            For the procedure described here, the following software prerequisites must be met:
+            <ParaGroup paraGroupDef="ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">Microsoft Hyper-V Manager must be installed on a Windows system.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
+                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx
+                    files.</P>
+            </ParaGroup></P>
+        <P paraDef="body">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be built
+            manually.</P>
+        <P paraDef="body">Consider the following instructions a sample procedure. The instructions might differ
+            depending on the version of the third-party software.</P>
+        <P paraDef="body">Complete these steps for the gateway, the data server, and the AppStack:</P>
+<ParaGroup paraGroupDef="ol">
+    <!--topic/li--><!--makeListPara step--><P paraDef="step" numberValue="1" withPrevious="Y">
+        Extract the vmdk file from the OVA.
+        <ParaGroup paraGroupDef="ol_ol">
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep" numberValue="1" withPrevious="Y">
+                Download the OVA.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Extract the contents of the OVA by using 7-zip for Windows or tar for the Linux operating system.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for Linux.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Delete everything except the vmdk file when the OVA extraction is complete.
+            </P>
+        </ParaGroup>
+    </P>
+    <!--topic/li--><!--makeListPara step--><P paraDef="step">
+        Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file.
+        <!--p element nested in list at nest level 4--><P paraDef="info">For instructions about converting .vmdk files to .vhdx files, see the following links:</P>
+        <ParaGroup paraGroupDef="ol_ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Use <HyperCmd fontDef="ulink" openURL="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn874008(v=ws.11)?redirectedfrom=MSDN">Microsoft Virtual Machine
+                                Converter</HyperCmd></P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Using <HyperCmd fontDef="ulink" openURL="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/virtualization/sect-virtualization-tips_and_tricks-using_qemu_img">qemu-img</HyperCmd></P>
+        </ParaGroup>
+    </P>
+    <!--topic/li--><!--makeListPara step--><P paraDef="step">
+        Build a virtual machine.
+        <ParaGroup paraGroupDef="ol_ol">
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep" numberValue="1" withPrevious="Y">
+                Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">New Virtual Machine &gt; Next</Font> from Hyper-V Manager.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Enter the name of the virtual machine in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Specify Name and Location</Font> window and click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Generation of the machine</Font> in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Specify Generation</Font> window.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Enter the startup memory in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Assign Memory</Font> window.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select the correct network in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Configure Network</Font> window and click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Use an existing virtual hard disk</Font> in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Connect Virtual Hard Disk</Font> window. Search the disk
+                    location, select one of the primary disks, and then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Finish</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Repeat these previous steps for all IBM StoredIQ disks.
+            </P>
+        </ParaGroup>
+    </P>
+    <!--topic/li--><!--makeListPara step--><P paraDef="step">
+        Optional: Add disks.
+        <ParaGroup paraGroupDef="ol_ol">
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep" numberValue="1" withPrevious="Y">
+                Select a virtual machine in Microsoft Hyper-V Manager.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select the settings for the virtual machine under <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Actions</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select the IDE controller and highlight Hard Drive in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Settings</Font> window.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select Hard Drive and virtual hard disk and click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">New</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font> in the New Virtual Hard Disk wizard.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">VHDX</Font> in Choose Disk Format and then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Dynamically expanding</Font> in Choose Disk Type and then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Enter a name for the disk in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Specify Name and Location</Font> window and the click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Create a new blank virtual hard disk</Font> and enter a size in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Configure Disk</Font> window and
+                    then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Finish</Font>.
+            </P>
+            <!--topic/li--><!--makeListPara substep--><P paraDef="substep">
+                Repeat this procedure for all additional disks.
+            </P>
+        </ParaGroup>
+    </P>
+</ParaGroup>
+        <!--PASS-THRU: tasktroubleshooting @class=- topic/section task/tasktroubleshooting -->
+        <P paraDef="body">Complete the installation process by following the instructions in <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=28">“Configuring IBM StoredIQ” on page 22</HyperCmd>.</P>
+
+
+    <!--DOC ignoring text 
+--></MiramoXML>

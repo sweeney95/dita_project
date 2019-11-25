@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="application_stack" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="concept:1;3:33">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="title:1;4:12">Application stack</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="p:1;6:12">
+            <ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="ul:1;7:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="li:1;8:21">vCPU: 2</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="li:2;9:21">Memory: 4 GB</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="li:3;10:21">Storage:
+                <ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="ul:2;11:21">
+                    <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="li:4;12:25">Primary disk (vmdisk1): 21 GB</li>
+                    <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/application_stack.dita" xtrc="li:5;13:25">Data disk (vmdisk2): 10 GB</li>
+                </ul></li>
+        </ul>
+        </p>
+    </conbody>
+</concept>

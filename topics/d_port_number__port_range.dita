@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d_port_number__port_range">
+    <title><b>-d port_number|'port_range'</b></title>
+    <conbody>
+        <p>To delete a port or a range of port numbers from iptables, for example:</p>
+        <p><codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'</codeblock></p>
+    </conbody>
+</concept>

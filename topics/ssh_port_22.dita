@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ssh_port_22">
+    <title>SSH port 22</title>
+    <conbody>
+        <p>By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure Shell
+            (SSH) communication and allows remote administration access to the VM. In general,
+            traffic is encrypted using password authentication. To add a layer of security, you can
+            establish key-based authentication for passwordless SSH logins to any of the IBM
+            StoredIQ nodes in your environment as described in <xref
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=51"
+                format="pdf" scope="external">“Configuring SSH key-based authentication” on page
+                45</xref>.</p>
+    </conbody>
+</concept>

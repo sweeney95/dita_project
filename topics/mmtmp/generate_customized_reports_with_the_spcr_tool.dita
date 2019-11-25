@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="generate_customized_reports_with_the_spcr_tool" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/generate_customized_reports_with_the_spcr_tool.dita" xtrc="concept:1;3:62">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/generate_customized_reports_with_the_spcr_tool.dita" xtrc="title:1;4:12">Generate customized reports with the SPCR tool</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/generate_customized_reports_with_the_spcr_tool.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/generate_customized_reports_with_the_spcr_tool.dita" xtrc="p:1;6:12">Go to the page at <xref href="https://www.ibm.com/software/reports/compatibility/clarity/index.html" format="html" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/generate_customized_reports_with_the_spcr_tool.dita" xtrc="xref:1;8:48"><?ditaot usertext?>Software Product Compatibility Reports</xref> to
+            create a high-level report for supported operating systems, related software,
+            hypervisors, and supported translations for any product. You can also create an in-depth
+            report to get detailed system requirements, hardware requirements, and end of service
+            information for each product. You can search for a product in all of the report types
+            and reports are generated based on your query values.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/generate_customized_reports_with_the_spcr_tool.dita" xtrc="p:2;14:16">The following report types are the most commonly generated reports from software product compatibility
+            reports:</p>
+    </conbody>
+</concept>

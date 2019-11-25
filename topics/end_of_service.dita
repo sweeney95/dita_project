@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="end_of_service">
+    <title>End of service</title>
+    <conbody>
+        <p>The end of service report shows the service window of the products that you specify over
+            an eightyear span. For example, you can find out when your product is scheduled to go
+            out of service.</p>
+    </conbody>
+</concept>

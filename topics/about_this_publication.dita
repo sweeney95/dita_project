@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_this_publication">
+    <title>About this publication</title>
+    <conbody>
+        <p><i>IBM StoredIQ Deployment and Configuration Guide</i> provides information about how to plan, deploy, and
+            configure the IBM StoredIQ product.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA General Task//EN?><?doctype-system generalTask.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="deploying_ibm_storediq_on_microsoft_hyper_v" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic task/task " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="task:1;3:56">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="title:1;4:12">Deploying IBM StoredIQ on Microsoft Hyper-V</title>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="taskbody:1;5:15">
+        <context class="- topic/section task/context " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="context:1;6:18">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="p:1;7:12">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server,
+            and application stack can be installed on Microsoft Hyper-V. This option is not
+            supported for the Elasticsearch virtual appliance.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="p:2;10:12">Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party software.
+            For the procedure described here, the following software prerequisites must be met:
+            <ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="ul:1;12:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="li:1;13:21">Microsoft Hyper-V Manager must be installed on a Windows system.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="li:2;14:21">7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="li:3;16:21">7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="li:4;18:21">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
+                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx
+                    files.</li>
+            </ul></p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="p:3;22:12">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be built
+            manually.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="p:4;24:12">Consider the following instructions a sample procedure. The instructions might differ
+            depending on the version of the third-party software.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="p:5;26:12">Complete these steps for the gateway, the data server, and the AppStack:</p></context>
+<steps class="- topic/ol task/steps " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="steps:1;27:8">
+    <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="step:1;28:11">
+        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:1;29:14">Extract the vmdk file from the OVA.</cmd>
+        <substeps class="- topic/ol task/substeps " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substeps:1;30:19">
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:1;31:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:2;32:22">Download the OVA.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:2;34:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:3;35:22">Extract the contents of the OVA by using 7-zip for Windows or tar for the Linux operating system.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:3;37:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:4;38:22">Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for Linux.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:4;40:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:5;41:22">Delete everything except the vmdk file when the OVA extraction is complete.</cmd>
+            </substep>
+        </substeps>
+    </step>
+    <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="step:2;45:11">
+        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:6;46:14">Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file.</cmd>
+        <info class="- topic/itemgroup task/info " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="info:1;47:15"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="p:6;47:18">For instructions about converting .vmdk files to .vhdx files, see the following links:</p>
+        <ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="ul:2;48:13">
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="li:5;49:17">Use <xref href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn874008(v=ws.11)?redirectedfrom=MSDN" format="html" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="xref:1;51:64"><?ditaot usertext?>Microsoft Virtual Machine
+                                Converter</xref></li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="li:6;53:17">Using <xref href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/virtualization/sect-virtualization-tips_and_tricks-using_qemu_img" format="html" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="xref:2;55:64"><?ditaot usertext?>qemu-img</xref></li>
+        </ul></info>
+    </step>
+    <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="step:3;58:11">
+        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:7;59:14">Build a virtual machine.</cmd>
+        <substeps class="- topic/ol task/substeps " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substeps:2;60:19">
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:5;61:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:8;62:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:1;62:32">New Virtual Machine &gt; Next</b> from Hyper-V Manager.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:6;64:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:9;65:22">Enter the name of the virtual machine in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:2;65:70">Specify Name and Location</b> window and click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:3;65:120">Next</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:7;67:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:10;68:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:4;68:32">Generation of the machine</b> in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:5;68:72">Specify Generation</b> window.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:8;70:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:11;71:22">Enter the startup memory in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:6;71:57">Assign Memory</b> window.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:9;73:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:12;74:22">Select the correct network in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:7;74:59">Configure Network</b> window and click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:8;74:101">Next</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:10;76:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:13;77:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:9;77:32">Use an existing virtual hard disk</b> in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:10;77:80">Connect Virtual Hard Disk</b> window. Search the disk
+                    location, select one of the primary disks, and then click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:11;78:82">Next</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:11;80:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:14;81:22">Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:12;81:31">Finish</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:12;83:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:15;84:22">Repeat these previous steps for all IBM StoredIQ disks.</cmd>
+            </substep>
+        </substeps>
+    </step>
+    <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="step:4;88:11">
+        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:16;89:14">Optional: Add disks.</cmd>
+        <substeps class="- topic/ol task/substeps " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substeps:3;90:19">
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:13;91:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:17;92:22">Select a virtual machine in Microsoft Hyper-V Manager.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:14;94:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:18;95:22">Select the settings for the virtual machine under <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:13;95:75">Actions</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:15;97:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:19;98:22">Select the IDE controller and highlight Hard Drive in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:14;98:83">Settings</b> window.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:16;100:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:20;101:22">Select Hard Drive and virtual hard disk and click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:15;101:75">New</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:17;103:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:21;104:22">Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:16;104:31">Next</b> in the New Virtual Hard Disk wizard.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:18;106:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:22;107:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:17;107:32">VHDX</b> in Choose Disk Format and then click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:18;107:81">Next</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:19;109:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:23;110:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:19;110:32">Dynamically expanding</b> in Choose Disk Type and then click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:20;110:96">Next</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:20;112:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:24;113:22">Enter a name for the disk in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:21;113:58">Specify Name and Location</b> window and the click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:22;113:112">Next</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:21;115:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:25;116:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:23;116:32">Create a new blank virtual hard disk</b> and enter a size in the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:24;116:100">Configure Disk</b> window and
+                    then click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="b:25;117:35">Finish</b>.</cmd>
+            </substep>
+            <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="substep:22;119:22">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="cmd:26;120:22">Repeat this procedure for all additional disks.</cmd>
+            </substep>
+        </substeps>
+    </step>
+</steps>
+        <tasktroubleshooting class="- topic/section task/tasktroubleshooting " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="tasktroubleshooting:1;125:30">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="p:7;126:12">Complete the installation process by following the instructions in <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=28" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_ibm_storediq_on_microsoft_hyper_v.dita" xtrc="xref:3;128:47"><?ditaot usertext?>“Configuring IBM StoredIQ” on page 22</xref>.</p></tasktroubleshooting>
+
+
+    </taskbody>
+</task>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="detailed_system_requirements">
+    <title>Detailed system requirements</title>
+    <conbody>
+        <p>When you select your product version for the detailed system requirements report, you can set a
+            report filter for <b>Operating system platforms</b>, <b>Product components</b>, and <b>Capabilities</b>, including
+            prerequisites and support software. After you view the report, you can save it as a URL to generate
+            anytime or download it as a PDF.</p>
+    </conbody>
+</concept>

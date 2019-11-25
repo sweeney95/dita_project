@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="generate_customized_reports_with_the_spcr_tool">
+    <title>Generate customized reports with the SPCR tool</title>
+    <conbody>
+        <p>Go to the page at <xref
+                href="https://www.ibm.com/software/reports/compatibility/clarity/index.html"
+                format="html" scope="external">Software Product Compatibility Reports</xref> to
+            create a high-level report for supported operating systems, related software,
+            hypervisors, and supported translations for any product. You can also create an in-depth
+            report to get detailed system requirements, hardware requirements, and end of service
+            information for each product. You can search for a product in all of the report types
+            and reports are generated based on your query values.</p>
+            <p>The following report types are the most commonly generated reports from software product compatibility
+            reports:</p>
+    </conbody>
+</concept>

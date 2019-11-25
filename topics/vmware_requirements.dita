@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="vmware_requirements">
+    <title>VMware requirements</title>
+    <conbody>
+        <p><ul>
+            <li>VMware vSphere v5.0 and fix packs or v6.0 and fix packs.</li>
+            <li>VMware ESXi v5.0 and fix packs, v6.0 and fix packs, or v6.5 and fix packs.</li>
+            <li>VMware virtual machine hardware version 8.0 or later. For more information, see
+                        <xref href="https://www.vmware.com/support/pubs/" format="html"
+                        scope="external">the VMware product documentation</xref>.</li>
+            <li>The appropriate VMware license to enable the required processor cores and memory for the virtual
+                machine.</li>
+        </ul></p>
+    </conbody>
+</concept>

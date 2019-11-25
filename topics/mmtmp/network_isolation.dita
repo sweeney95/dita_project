@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="network_isolation" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/network_isolation.dita" xtrc="concept:1;3:33">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/network_isolation.dita" xtrc="title:1;4:12">Network isolation</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/network_isolation.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/network_isolation.dita" xtrc="p:1;6:12">If full-text harvesting and Step-up Analytics actions (cartridges) are applied, Elasticsearch indexes can
+            contain potentially sensitive content. Therefore, you should deploy the Elasticsearch nodes in an isolated
+            location on the network (for example, as an enclave or behind a firewall) that is properly secured
+            according to the sensitivity of the data being harvested. Only the IBM StoredIQ application stack and data
+            servers should be allowed to communicate with the Elasticsearch nodes.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/network_isolation.dita" xtrc="p:2;11:12">Also, any data servers and the gateway should be deployed in an isolated network location to allow for
+            communication with authorized clients only.</p>
+    </conbody>
+</concept>

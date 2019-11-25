@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="application_stack">
+    <title>Application stack</title>
+    <conbody>
+        <p>
+            <ul>
+                <li>vCPU: 2</li>
+                <li>Memory: 4 GB</li>
+                <li>Storage:
+                <ul>
+                    <li>Primary disk (vmdisk1): 21 GB</li>
+                    <li>Data disk (vmdisk2): 10 GB</li>
+                </ul></li>
+        </ul>
+        </p>
+    </conbody>
+</concept>

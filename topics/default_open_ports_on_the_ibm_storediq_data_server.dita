@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="default_open_ports_on_the_ibm_storediq_data_server">
+    <title>Default open ports on the IBM StoredIQ data server</title>
+    <conbody>
+        <p>
+            <table frame="all" rowsep="1" colsep="1" id="table_nlh_vjm_5jb">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Port number</entry>
+                            <entry>Protocol</entry>
+                            <entry>Service</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>22</entry>
+                            <entry>tcp</entry>
+                            <entry>PROD-ssh</entry>
+                        </row>
+                        <row>
+                            <entry>80</entry>
+                            <entry>tcp</entry>
+                            <entry>PROD-web</entry>
+                        </row>
+                        <row>
+                            <entry>443</entry>
+                            <entry>tcp</entry>
+                            <entry>PROD-https (UI and Web Services APIs)</entry>
+                        </row>
+                        <row>
+                            <entry>11103</entry>
+                            <entry morerows="1">tcp</entry>
+                            <entry morerows="1">PROD-transport (IBM StoredIQ transport services;
+                                communication between the gateway and the data server)</entry>
+                        </row>
+                        <row>
+                            <entry>11104</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </conbody>
+</concept>

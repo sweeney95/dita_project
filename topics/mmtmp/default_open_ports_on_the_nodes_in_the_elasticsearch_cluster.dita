@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="concept:1;3:76">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="title:1;4:12">Default open ports on the nodes in the Elasticsearch cluster</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="conbody:1;5:14">
+        <table frame="all" rowsep="1" colsep="1" id="table_y4z_tmm_5jb" class="- topic/table " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="table:1;6:73">
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="tgroup:1;7:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" class="- topic/colspec " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="colspec:1;8:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="colspec:2;9:65"/>
+                <colspec colname="col3" colnum="3" colwidth="1*" class="- topic/colspec " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="colspec:3;10:65"/>
+                <thead class="- topic/thead " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="thead:1;11:24">
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:1;12:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:1;13:32" colname="col1" dita-ot:x="1" dita-ot:y="1">Port number</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:2;14:32" colname="col2" dita-ot:x="2" dita-ot:y="1">Protocol</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:3;15:32" colname="col3" dita-ot:x="3" dita-ot:y="1">Service</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="tbody:1;18:24">
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:2;19:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:4;20:32" colname="col1" dita-ot:x="1" dita-ot:y="2">21</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:5;21:32" colname="col2" dita-ot:x="2" dita-ot:y="2">tcp</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:6;22:32" colname="col3" dita-ot:x="3" dita-ot:y="2">ftp</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:3;24:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:7;25:32" colname="col1" dita-ot:x="1" dita-ot:y="3">22</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:8;26:32" colname="col2" dita-ot:x="2" dita-ot:y="3">tcp</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:9;27:32" colname="col3" dita-ot:x="3" dita-ot:y="3">sshd</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:4;29:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:10;30:32" colname="col1" dita-ot:x="1" dita-ot:y="4">80</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:11;31:32" colname="col2" dita-ot:x="2" dita-ot:y="4">tcp</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:12;32:33" colname="col3" dita-ot:x="3" dita-ot:y="4"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:5;34:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:13;35:32" colname="col1" dita-ot:x="1" dita-ot:y="5">443</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:14;36:32" colname="col2" dita-ot:x="2" dita-ot:y="5">tcp</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:15;37:33" colname="col3" dita-ot:x="3" dita-ot:y="5"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:6;39:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:16;40:32" colname="col1" dita-ot:x="1" dita-ot:y="6">8888</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:17;41:32" colname="col2" dita-ot:x="2" dita-ot:y="6">tcp</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:18;42:32" colname="col3" dita-ot:x="3" dita-ot:y="6">SimpleHTTPServer (used for
+                            copying the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="codeph:1;43:49">siqelasticsearch.yml</codeph>
+                            configuration file from the
+                            Elasticsearch node to the data
+                            server)</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:7;48:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:19;49:32" colname="col1" dita-ot:x="1" dita-ot:y="7">9200</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:20;50:32" colname="col2" dita-ot:x="2" dita-ot:y="7">tcp6</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:21;51:32" colname="col3" dita-ot:x="3" dita-ot:y="7"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="p:1;51:35">docker-proxy (listening for REST
+                            requests)</p>
+                            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="p:2;53:32">You can restrict access to this port by either enabling Search Guard
+                                or by setting up a firewall. For more information, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=57" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="xref:1;56:67"><?ditaot usertext?>“Securing Elasticsearch cluster
+                                    communication with Search Guard” on page 51</xref> or <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=58" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="xref:2;59:67"><?ditaot usertext?>“Restricting access to port 9200
+                                    on Elasticsearch nodes” on page 52.</xref></p></entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="row:8;62:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:22;63:32" colname="col1" dita-ot:x="1" dita-ot:y="8">9300</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:23;64:32" colname="col2" dita-ot:x="2" dita-ot:y="8">tcp6</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="entry:24;65:32" colname="col3" dita-ot:x="3" dita-ot:y="8">docker-proxy (internode
+                            communication)</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita" xtrc="p:3;71:12"/>
+    </conbody>
+</concept>

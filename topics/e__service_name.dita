@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="e__service_name">
+    <title><b>-e 'service_name'</b></title>
+    <conbody>
+        <p>To enable a specific service, for example, to enable HTTPS services:</p>
+        <p><codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'</codeblock></p>
+    </conbody>
+</concept>

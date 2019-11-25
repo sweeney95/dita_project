@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="security">
+    <title>Security</title>
+    <conbody>
+        <p>Plan and implement specific security measures to protect the application and the data it manages,
+            especially when you deploy IBM StoredIQ into sensitive environments.</p>
+        <p>IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing.</p>
+    </conbody>
+</concept>

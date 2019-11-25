@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#application"/>Application</P>
+        <P paraDef="body">
+            <Font fontDef="trademark">ANSUL<Var varDef="reg"/></Font> proportioners are specifically designed to accurately
+            proportion and control the mixing of pressurized <Font fontDef="trademark">ANSUL<Var varDef="reg"/></Font> foam
+            concentrates into a water stream with minimum pressure loss. <Font fontDef="trademark">ANSUL<Var varDef="reg"/></Font>
+            proportioners are UL listed and FM Approved with various <Font fontDef="trademark">ANSUL<Var varDef="reg"/></Font>
+            foam concentrates, and the proportioners are used in conjunction with bladder tanks.
+            Typical applications include flammable liquid storage tanks, loading racks, aircraft
+            hangars, heliports, and anywhere flammable liquids are used, stored, processed, or
+            transported.</P>
+    </MiramoXML>

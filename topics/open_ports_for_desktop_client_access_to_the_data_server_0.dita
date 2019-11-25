@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="open_ports_for_desktop_client_access_to_the_data_server_0">
+    <title>Open ports for desktop client access to the data server</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p>To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log in to the data server as root and run this command:
+                    <filepath>python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</filepath>
+                    </cmd>
+            </step>
+            <step>
+                <cmd></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

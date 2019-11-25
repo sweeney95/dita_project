@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="gateway_server">
+    <title>Gateway server</title>
+    <conbody>
+        <p><ul>
+            <li>vCPU: 4</li>
+            <li>Memory: 8 GB</li>
+            <li>Storage:
+            <ul>
+                <li>Primary disk (vmdisk1): 100 GB</li>
+                <li>Data disk (vmdisk2): 75 GB</li>
+                <li>Swap disk (vmdisk3): 40 - 100 GB</li>
+            </ul></li>
+        </ul></p>
+    </conbody>
+</concept>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ibm_storediq_product_library">
+    <title>IBM StoredIQ product library</title>
+    <conbody>
+        <p>The following documents are available in the IBM® StoredIQ® product library.</p>
+        <p>
+            <ul>
+                <li><i>IBM StoredIQ Overview Guide</i></li>
+                <li><i>IBM StoredIQ Deployment and Configuration on Guide</i></li>
+                <li><i>IBM StoredIQ Data Server Administration Guide</i></li>
+                <li><i>IBM StoredIQ Administrator Administration Guide</i></li>
+                <li><i>IBM StoredIQ Data Workbench User Guide</i></li>
+                <li><i>IBM StoredIQ Policy Manager User Guide</i></li>
+                <li><i>IBM StoredIQ Insights User Guide</i></li>
+                <li><i>IBM StoredIQ Integration Guide</i></li>
+            </ul>
+        </p>
+    </conbody>
+</concept>

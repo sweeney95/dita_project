@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="planning_for_deployment">
+    <title>Planning for deployment</title>
+    <conbody>
+        <p>When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.</p>
+        <p>In addition to the information in this section, review the requirements detailed in the
+            IBM Software Product Compatibility Reports (SPCR) tool at: <xref
+                href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=CC1291B0F4AF11E3ACBD4447721DA353"
+                format="html" scope="external">Software Product Compatibility Reports: StoredIQ
+                7.6</xref></p>
+        <p>If you plan to use IBM StoredIQ for Legal Identification and Collection to create and
+            manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also check
+            the system requirements for <xref
+                href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=8A0331A0C50D11E58D9C0D684F363D68"
+                format="html" scope="external">StoredIQ for Legal at: Software Product Compatibility
+                Reports: StoredIQ for Legal 2.0.3</xref></p>
+    </conbody>
+</concept>

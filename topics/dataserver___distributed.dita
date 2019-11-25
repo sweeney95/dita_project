@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="dataserver___distributed">
+    <title>DataServer - Distributed</title>
+    <conbody>
+        <p><ul>
+            <li>vCPU: 4</li>
+            <li>Memory: 16 GB</li>
+            <li><p>Storage:</p>
+            <p><ul>
+                <li>Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</li>
+                <li>Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</li>
+                <li>Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</li>
+            </ul></p></li>
+        </ul></p>
+        <p>If you deploy this type of data server, you must also deploy an Elasticsearch cluster with at least one
+            node. If you deploy a cluster with more nodes, each of the Elasticsearch nodes must meet the listed
+            requirements.</p>
+    </conbody>
+</concept>

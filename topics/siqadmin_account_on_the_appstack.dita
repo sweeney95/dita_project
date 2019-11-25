@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="siqadmin_account_on_the_appstack">
+    <title><codeph>siqadmin</codeph> account on the AppStack</title>
+    <conbody>
+        <p>Administration of the AppStack usually does not require direct root access. For day-to-day
+            administration, the siqadmin account can be used.</p>
+        <p>You set the password for the siqadmin account during the configuration process when you start the
+            VM for the first time. You can change this password anytime.</p>
+    </conbody>
+</concept>

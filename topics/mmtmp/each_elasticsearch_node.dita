@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="each_elasticsearch_node" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="concept:1;3:39">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="title:1;4:12">Each Elasticsearch node</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="p:1;6:12"><ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="ul:1;6:16">
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="li:1;7:17">vCPU: 1</li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="li:2;8:17">Memory: 32 GB</li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="li:3;9:17"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="p:2;9:20">Storage:</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="p:3;10:16"><ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="ul:2;10:20">
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="li:4;11:21">Primary disk (vmdisk1): 100 GB</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="li:5;12:21">Data disk (vmdisk2): 1 TB</li>
+            </ul></p></li>
+        </ul></p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="p:4;15:12">The required memory depends on the index size that is handled by the data node. For a better
+            performance, consider increasing the memory. The total memory available to the node must be
+            distributed between the host operating system, the Elasticsearch java heap space, and the kernel file
+            system caches. For example, if the system has 32 GB memory, 2 GB must be allocated for the host
+            operating system, 15 GB for the java heap space, and the remaining 15 GB for the file system caches.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/each_elasticsearch_node.dita" xtrc="p:5;20:12">The data disk (vmdisk2) can be resized according to expectations on the amount of harvest data to be
+            stored.</p>
+    </conbody>
+</concept>

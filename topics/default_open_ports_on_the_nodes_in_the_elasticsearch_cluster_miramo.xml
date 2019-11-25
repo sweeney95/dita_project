@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#default_open_ports_on_the_nodes_in_the_elasticsearch_cluster"/>Default open ports on the nodes in the Elasticsearch cluster</P>
+        <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="3" width="100%" topRule="all" bottomRule="all" startRule="all" endRule="all"><TblTitle><!--topic/title parent table count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="tableTitle"><MkDest id="#table_y4z_tmm_5jb"/></P></TblTitle>
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <TblColumn width="1*"/>
+                <Row type="header">
+                        <Cell verticalTextAlign="middle"><P>Port number</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Protocol</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>Service</P></Cell>
+                    </Row>
+                <Row type="body">
+                        <Cell verticalTextAlign="middle"><P>21</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>ftp</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>22</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>sshd</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>80</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P/></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>443</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P/></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>8888</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>SimpleHTTPServer (used for
+                            copying the <Font fontDef="codeph">siqelasticsearch.yml</Font>
+                            configuration file from the
+                            Elasticsearch node to the data
+                            server)</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>9200</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp6</P></Cell>
+                        <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P>docker-proxy (listening for REST
+                            requests)</P><!--p element nested in table at nest level 2--><P>You can restrict access to this port by either enabling Search Guard
+                                or by setting up a firewall. For more information, see <HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=51">“Securing Elasticsearch cluster
+                                    communication with Search Guard” on page 51</HyperCmd> or
+                                “Restricting access to port 9200 on Elasticsearch nodes” on page
+                                52.</P></Cell>
+                    </Row><Row type="body">
+                        <Cell verticalTextAlign="middle"><P>9300</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>tcp6</P></Cell>
+                        <Cell verticalTextAlign="middle"><P>docker-proxy (internode
+                            communication)</P></Cell>
+                    </Row>
+            </Tbl>
+        <P paraDef="body"/>
+    </MiramoXML>

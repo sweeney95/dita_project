@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#deploying_ibm_storediq_on_microsoft_hyper_v"/>Deploying IBM StoredIQ on Microsoft Hyper-V</P>
+        <P paraDef="body">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server,
+            and application stack can be installed on Microsoft Hyper-V. This option is not
+            supported for the Elasticsearch virtual appliance.</P>
+        <P paraDef="body">Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party software.
+            For the procedure described here, the following software prerequisites must be met:</P>
+        <ParaGroup paraGroupDef="ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">Microsoft Hyper-V Manager must be installed on a Windows system.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be
+                    installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx
+                    files.</P>
+            </ParaGroup>
+        <P paraDef="body">Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be built
+            manually.</P>
+        <P paraDef="body">Consider the following instructions a sample procedure. The instructions might differ
+            depending on the version of the third-party software.</P>
+        <P paraDef="body">Complete these steps for the gateway, the data server, and the AppStack:</P>
+        <ParaGroup paraGroupDef="ol">
+            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">Extract the vmdk file from the OVA.
+            <ParaGroup paraGroupDef="ol_ol">
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2" numberValue="1" withPrevious="Y">Download the OVA.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Extract the contents of the OVA by using 7-zip for Windows or tar for the Linux operating system.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for Linux.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Delete everything except the vmdk file when the OVA extraction is complete.</P>
+            </ParaGroup></P>
+            <!--topic/li--><!--p element nested in list at nest level 3--><!--makeListPara p--><P paraDef="orderedlistitem1">Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file.</P>
+                <!--p element nested in list at nest level 3--><!--makeListPara p--><P paraDef="orderedlistitem1" listLabel="N">For instructions about converting .vmdk files to .vhdx files, see the following links:</P>
+            <ParaGroup paraGroupDef="ol_ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Use Microsoft Virtual Machine Converter</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Using qemu-img</P>
+            </ParaGroup>
+            <!--topic/li--><!--p element nested in list at nest level 3--><!--makeListPara p--><P paraDef="orderedlistitem1">Build a virtual machine.</P>
+            <!--p element nested in list at nest level 3-->
+                <ParaGroup paraGroupDef="ol_ol">
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2" numberValue="1" withPrevious="Y">Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">New Virtual Machine &gt; Next</Font> from Hyper-V Manager.</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Enter the name of the virtual machine in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Specify Name and Location</Font> window and click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Generation of the machine</Font> in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Specify Generation</Font> window.</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Enter the startup memory in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Assign Memory</Font> window.</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select the correct network in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Configure Network</Font> window and click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Use an existing virtual hard disk</Font> in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Connect Virtual Hard Disk</Font> window. Search the disk
+                        location, select one of the primary disks, and then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Finish</Font>.</P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Repeat these previous steps for all IBM StoredIQ disks.</P>
+                </ParaGroup>
+            
+            <!--topic/li--><!--p element nested in list at nest level 3--><!--makeListPara p--><P paraDef="orderedlistitem1">Optional: Add disks.</P>
+            <!--p element nested in list at nest level 3--><ParaGroup paraGroupDef="ol_ol">
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2" numberValue="1" withPrevious="Y">Select a virtual machine in Microsoft Hyper-V Manager.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select the settings for the virtual machine under <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Actions</Font>.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select the IDE controller and highlight Hard Drive in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Settings</Font> window.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select Hard Drive and virtual hard disk and click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">New</Font>.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font> in the New Virtual Hard Disk wizard.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">VHDX</Font> in Choose Disk Format and then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Dynamically expanding</Font> in Choose Disk Type and then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Enter a name for the disk in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Specify Name and Location</Font> window and the click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Next</Font>.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Select <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Create a new blank virtual hard disk</Font> and enter a size in the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Configure Disk</Font> window and
+                    then click <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Finish</Font>.</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem2">Repeat this procedure for all additional disks.</P>
+            </ParaGroup>
+        </ParaGroup>
+        <P paraDef="body">Complete the installation process by following the instructions in “Configuring IBM StoredIQ” on page
+            22.</P>
+
+
+    </MiramoXML>

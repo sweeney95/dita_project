@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#contacting_ibm_storediq_customer_support_0"/>Contacting IBM StoredIQ customer support</P>
+        <P paraDef="body">For IBM StoredIQ technical support or to learn about available service options, contact IBM StoredIQ
+            customer support at this phone number:</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">1-866-227-2068</P>
+        </ParaGroup>
+        <P paraDef="body">Or, see the Contact IBM web site at <!--topic/ph hi-d found: [u] id=--><Font fontDef="u">http://www.ibm.com/contact/us/</Font></P>
+        
+        <P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">IBM Knowledge Center</Font></P>
+        <P paraDef="body">The IBM StoredIQ documentation is available in <!--topic/ph hi-d found: [u] id=--><Font fontDef="u"><HyperCmd fontDef="ulink" openURL="https://www.ibm.com/support/knowledgecenter/">IBM Knowledge Center</HyperCmd></Font>.</P>
+           
+    </MiramoXML>

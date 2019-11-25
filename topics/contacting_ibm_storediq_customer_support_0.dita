@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="contacting_ibm_storediq_customer_support_0">
+    <title>Contacting IBM StoredIQ customer support</title>
+    <conbody>
+        <p>For IBM StoredIQ technical support or to learn about available service options, contact IBM StoredIQ
+            customer support at this phone number:</p>
+        <ul>
+            <li>1-866-227-2068</li>
+        </ul>
+        <p>Or, see the Contact IBM web site at <u><xref href="http://www.ibm.com/contact/us/"
+                    format="html" scope="external">http://www.ibm.com/contact/us/</xref></u></p>
+        
+        <p><b>IBM Knowledge Center</b></p>
+        <p>The IBM StoredIQ documentation is available in <u><xref
+                    href="https://www.ibm.com/support/knowledgecenter/" format="html"
+                    scope="external">IBM Knowledge Center</xref></u>.</p>
+           
+    </conbody>
+</concept>

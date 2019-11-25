@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#default_open_ports_on_the_ibm_storediq_data_server"/>Default open ports on the IBM StoredIQ data server</P>
+        <P paraDef="body">
+            <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="3" width="100%" topRule="all" bottomRule="all" startRule="all" endRule="all"><TblTitle><!--topic/title parent table count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="tableTitle"><MkDest id="#table_nlh_vjm_5jb"/>Default open ports on the IBM StoredIQ data server</P></TblTitle>
+                    <TblColumn width="1*"/>
+                    <TblColumn width="1*"/>
+                    <TblColumn width="1*"/>
+                    <Row type="header">
+                            <Cell verticalTextAlign="middle"><P>Port number</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>Protocol</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>Service</P></Cell>
+                        </Row>
+                    <Row type="body">
+                            <Cell verticalTextAlign="middle"><P>22</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>PROD-ssh</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>80</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>PROD-web</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>443</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>tcp</P></Cell>
+                            <Cell verticalTextAlign="middle"><P>PROD-https (UI and Web Services APIs)</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>11103</P></Cell>
+                            <Cell rowSpan="2" verticalTextAlign="middle"><P>tcptcp</P></Cell>
+                            <Cell rowSpan="2" verticalTextAlign="middle"><P>PROD-transport (IBM StoredIQ transport services;
+                                communication between the gateway and the data server)</P></Cell>
+                        </Row><Row type="body">
+                            <Cell verticalTextAlign="middle"><P>11104</P></Cell>
+                        </Row>
+                </Tbl>
+        </P>
+    </MiramoXML>

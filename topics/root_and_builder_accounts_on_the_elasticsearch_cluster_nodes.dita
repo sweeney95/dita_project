@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="root_and_builder_accounts_on_the_elasticsearch_cluster_nodes">
+    <title><codeph>root</codeph> and builder accounts on the Elasticsearch cluster nodes</title>
+    <conbody>
+        <p>Remote login for root can be disabled. However, local root login is required, either log in as root or
+            use the <b>su</b> command to obtain root permissions temporarily.</p>
+        <p>You set the passwords for the root and builder accounts during the configuration process when
+            you start the VM for the first time. You can change these passwords anytime.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="secure_communication_and_encryption_of_data_in_motion">
+    <title>Secure communication and encryption of data in motion</title>
+    <conbody>
+        <p>In a production environment, you should configure or install certificates on the AppStack
+            to enable HTTPS communication and to enable encryption of data in motion between the
+            browser and the AppStack. You can to this during installation and initial configuration
+            or at any time afterward. For details, see <xref
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=41"
+                format="pdf" scope="external">the instructions for configuring
+            certificates</xref>.</p>
+        <p>The gateway handles the communication between the data servers and the application stack.
+            By default, the communication between the gateway, any data servers, and the AppStack is
+            in plain text and is not encrypted. If your enterprise security policy mandates
+            encryption of data in motion, enable secure gateway communication. In this case, secure
+            gateway communication must be configured on all three IBM StoredIQ components. You can
+            enable secure gateway communication during installation and initial configuration or at
+            any time afterward. For details, see <xref
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=60"
+                format="pdf" scope="external">“Managing the status of secure gateway communication”
+                on page 54</xref>.</p>
+        <p>IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
+            environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
+            encrypt the communication between the nodes within the Elasticsearch cluster but not for encrypting the
+            communication between the data server and the Elasticsearch cluster.</p>
+        <p>To secure the communication between the data server and the Elasticsearch cluster and the
+            communication within the Elasticsearch cluster likewise, you can enable Search Guard.
+            For more information, see <xref
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=57"
+                format="pdf" scope="external">“Securing Elasticsearch cluster communication with
+                Search Guard” on page 51</xref>. If you don't want to do that but still want to
+            restrict client access to port 9200 on the Elasticsearch nodes, you can set up the
+            firewall accordingly. For more information, see <xref
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=58"
+                format="pdf" scope="external">“Restricting access to port 9200 on Elasticsearch
+                nodes” on page 52</xref>.</p>
+        <p>If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:</p>
+        <p>TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256</p>
+        <p>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</p>
+        <p>You can configure these cipher suites in the configuration files listed in <xref
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=47"
+                format="pdf" scope="external">the list of key and certificate files</xref>. However,
+            if you run the utilities for enabling stunnel, you might need to make the respective
+            configuration changes again.</p>
+    </conbody>
+</concept>

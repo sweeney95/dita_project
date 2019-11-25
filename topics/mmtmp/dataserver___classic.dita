@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="dataserver___classic" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="concept:1;3:36">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="title:1;4:12">DataServer - Classic</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:1;6:12"><ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="ul:1;6:16">
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="li:1;7:17"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:2;7:20">vCPU: 4</p>
+                <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:3;8:20">Even though increasing the number of vCPUs increases performance, the actual benefits depend on
+                    whether the specific host is oversubscribed or not.</p></li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="li:2;10:17"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:4;10:20">Memory: 16 GB</p>
+                <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:5;11:20">While the minimum value works under light-load condition, as the load increases, the data server
+                    quickly starts using swap space. For high load situations, increasing RAM beyond 16 GB can benefit
+                    performance. Monitoring swap usage can provide insight.</p></li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="li:3;14:17"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:6;14:20">Storage:</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:7;15:16"><ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="ul:2;15:20">
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="li:4;16:21"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:8;16:24">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</p>
+                    <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:9;17:24">This virtual disk has an associated VMDK that contains the IBM StoredIQ operating code. Do not
+                        change its size.</p>
+                <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:10;19:20">
+                    <hazardstatement class="+ topic/note hazard-d/hazardstatement " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="hazardstatement:1;20:38">
+                    <messagepanel class="+ topic/ul hazard-d/messagepanel " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="messagepanel:1;21:35">
+                        <typeofhazard class="+ topic/li hazard-d/typeofhazard " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="typeofhazard:1;22:39">Attention</typeofhazard>
+                        <howtoavoid class="+ topic/li hazard-d/howtoavoid " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="howtoavoid:1;23:37">If you delete the primary disk, you delete the operating system, and the IBM
+                            StoredIQ software; the virtual machine might need to be scrapped.</howtoavoid>
+                    </messagepanel>
+                </hazardstatement></p></li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="li:5;27:21"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:11;27:24">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</p>
+                    <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:12;28:24">This virtual disk can be resized according to expectations on the amount of harvest data to be
+                        stored. For purposes of estimation, the index storage requirement for metadata is about 30 GB
+                        per TB of managed source data. Full-text indexing requires an extra 170 GB per TB. Therefore,
+                        the default data disk size is targeted for managing 10 TB of source information.</p></li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="li:6;32:21"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:13;32:24">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</p>
+                    <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:14;33:24">When under load, the data server can use much RAM; therefore, having ample swap space is
+                        prudent. The minimum swap size is equal to the amount of RAM configured for the virtual
+                        machine. For best performance under load, place this disk on the highest speed data store
+                        available to the host.</p></li>
+                </ul></p></li>
+        </ul></p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:15;39:12">The general size limits for a data server are 150 million objects or 500 defined volumes, whichever
+            limit is reached first. Assuming an average object size of 200 KB equals about 30 TB of managed
+            storage across 30 volumes of 5 million objects each, the index storage requirement for metadata on
+            ~30 TB of storage that contains uncompressed general office documents is ~330 GB (11 GB per TB).
+            Add 100 GB per TB of managed storage for full-text or snippet index. For example, to support 30 TB
+            of storage that is indexed for metadata, you need 8 TB indexed for full-text search and extracted text
+            (snippet cache) of 8 TB for auto-classification. A total of 1.9 TB of storage is required (metadata: 330
+            GB, full-text: 800 GB, snippet cache: 800 GB).</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/dataserver___classic.dita" xtrc="p:16;47:12">Data-server performance is impacted by the IOPS available from the storage subsystem. For each
+            data server under maximum workload, at least 650 IOPS generally delivers acceptable performance.
+            In the situations where there is a high load on the system, the IOPS that is used can reach up to 7000
+            with main write operations.</p>
+    </conbody>
+</concept>

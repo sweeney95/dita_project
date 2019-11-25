@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="enable_or_disable_ports_or_services_on_the_ibm_storediq_data_server">
+    <title>Enable or disable ports or services on the IBM StoredIQ data server</title>
+    <conbody>
+        <p>To manage ports, you can use the /usr/local/storediq/bin/util/port_handler.pyc script with
+            the appropriate parameter:</p>
+        <p><codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -parameter</codeblock></p>
+    </conbody>
+</concept>

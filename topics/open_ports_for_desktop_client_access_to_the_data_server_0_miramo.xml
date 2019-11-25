@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent task count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#open_ports_for_desktop_client_access_to_the_data_server_0"/>Open ports for desktop client access to the data server</P><P paraDef="shortdesc"/>
+        <!--PASS-THRU: context @class=- topic/section task/context -->
+            <P paraDef="body">To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:</P>
+        
+        <ParaGroup paraGroupDef="ol">
+            <!--topic/li--><!--makeListPara step--><P paraDef="step" numberValue="1" withPrevious="Y">
+                Log in to the data server as root and run this command:
+                    <!--SW-D FOUND--><Font fontDef="filepath">python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</Font>
+                    
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                
+            </P>
+        </ParaGroup>
+    </MiramoXML>

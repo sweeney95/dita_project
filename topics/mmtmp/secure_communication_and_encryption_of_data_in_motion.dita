@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\mmtmp?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/mmtmp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="secure_communication_and_encryption_of_data_in_motion" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="concept:1;3:69">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="title:1;4:12">Secure communication and encryption of data in motion</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:1;6:12">In a production environment, you should configure or install certificates on the AppStack
+            to enable HTTPS communication and to enable encryption of data in motion between the
+            browser and the AppStack. You can to this during installation and initial configuration
+            or at any time afterward. For details, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=41" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="xref:1;11:47"><?ditaot usertext?>the instructions for configuring
+            certificates</xref>.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:2;13:12">The gateway handles the communication between the data servers and the application stack.
+            By default, the communication between the gateway, any data servers, and the AppStack is
+            in plain text and is not encrypted. If your enterprise security policy mandates
+            encryption of data in motion, enable secure gateway communication. In this case, secure
+            gateway communication must be configured on all three IBM StoredIQ components. You can
+            enable secure gateway communication during installation and initial configuration or at
+            any time afterward. For details, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=60" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="xref:2;21:47"><?ditaot usertext?>“Managing the status of secure gateway communication”
+                on page 54</xref>.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:3;23:12">IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
+            environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
+            encrypt the communication between the nodes within the Elasticsearch cluster but not for encrypting the
+            communication between the data server and the Elasticsearch cluster.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:4;27:12">To secure the communication between the data server and the Elasticsearch cluster and the
+            communication within the Elasticsearch cluster likewise, you can enable Search Guard.
+            For more information, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=57" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="xref:3;31:47"><?ditaot usertext?>“Securing Elasticsearch cluster communication with
+                Search Guard” on page 51</xref>. If you don't want to do that but still want to
+            restrict client access to port 9200 on the Elasticsearch nodes, you can set up the
+            firewall accordingly. For more information, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=58" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="xref:4;36:47"><?ditaot usertext?>“Restricting access to port 9200 on Elasticsearch
+                nodes” on page 52</xref>.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:5;38:12">If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:6;39:12">TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:7;40:12">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="p:8;41:12">You can configure these cipher suites in the configuration files listed in <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf#page=47" format="pdf" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/secure_communication_and_encryption_of_data_in_motion.dita" xtrc="xref:5;43:47"><?ditaot usertext?>the list of key and certificate files</xref>. However,
+            if you run the utilities for enabling stunnel, you might need to make the respective
+            configuration changes again.</p>
+    </conbody>
+</concept>

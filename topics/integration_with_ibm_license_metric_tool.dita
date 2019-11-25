@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="integration_with_ibm_license_metric_tool">
+    <title>Integration with IBM License Metric Tool</title>
+    <conbody>
+        <p>Versions of IBM License Metric Tool (ILMT) that support IBM Software License Metric Tag (SLMT) can
+            generate license consumption reports. An ILMT agent can scan in configurable intervals the file system
+            for .slmtag files, collect information, and send it to the corresponding ILMT server. ILMT reports the
+            number of terabytes managed by IBM StoredIQ. This number is to be used as input for the RVU License
+            Conversion Table specified in the license information (li_languagecode file) that comes with IBM
+            StoredIQ. On the application stack, you can find the license information in the License directory.</p>
+        <p>For more information about using IBM License Metric Tool, see the <xref
+                href="https://www.ibm.com/support/knowledgecenter/SS8JFY_9.2.0/com.ibm.lmt.doc/welcome/LMT_welcome.html"
+                format="html" scope="external">IBM License Metric Tool documentation</xref>.</p>
+    </conbody>
+</concept>

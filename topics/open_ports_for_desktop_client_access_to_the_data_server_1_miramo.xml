@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent task count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#open_ports_for_desktop_client_access_to_the_data_server_1"/>Open ports for desktop client access to the data server</P>
+        <!--Using default mapping of class - topic/section task/context  on element context to body paragraph --><P paraDef="body">To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:
+        </P>
+        <ParaGroup paraGroupDef="ol">
+            <!--topic/li--><!--makeListPara step--><P paraDef="step" numberValue="1" withPrevious="Y">
+                Log in to the data server as root and run this command:
+                <P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</P>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run this command: <Font fontDef="codeph">iptables -L INPUT</Font>
+                <P paraDef="info">In the output of the command, check the list position of the rule that is named PROD-reject, for
+                    example, the 6th position on the list.</P>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run this command: <Font fontDef="codeph">iptables -A INPUT -j PROD-reject</Font>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run this command: <Font fontDef="codeph">iptables -D INPUT <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">list_position</Font></Font>
+                <P paraDef="info"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">list_position</Font> is the position number of the PROD-reject rule that you determined in step 2.</P>
+            </P>
+            <!--topic/li--><!--makeListPara step--><P paraDef="step">
+                Run the following command:
+                <P paraDef="lines" whiteSpaceCollapse="N">python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</P>
+            </P>
+        </ParaGroup>
+        <!--Using default mapping of class - topic/section task/tasktroubleshooting  on element tasktroubleshooting to body paragraph --><P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Tip:</Font> These steps are required only on an IBM StoredIQ OVA deployed system. The correct ports are open
+            on an upgraded system.</P>
+    </MiramoXML>

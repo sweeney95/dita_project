@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="contacting_ibm">
+    <title>Contacting IBM</title>
+    <conbody>
+        <p>For general inquiries, call 800-IBM-4YOU (800-426-4968). To contact IBM customer service in the
+            United States or Canada, call 1-800-IBM-SERV (1-800-426-7378).</p>
+            <p>For more information about how to contact IBM, including TTY service, see the Contact
+            IBM website at <u><xref href="http://www.ibm.com/contact/us/" format="html"
+                    scope="external">http://www.ibm.com/contact/us/</xref></u>. </p>
+    </conbody>
+</concept>

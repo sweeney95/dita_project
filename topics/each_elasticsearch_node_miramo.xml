@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="lang-appendix">Appendix </VarDef><VarDef varDef="lang-chapter">Chapter </VarDef><VarDef varDef="lang-table">Table </VarDef><VarDef varDef="lang-figure">Figure </VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-onpage"> on page </VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-related">Related Links</VarDef><VarDef varDef="printDate"><Date dateDef="lmdate"/></VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><TblContinuationDef tblContinuationDef="figure"> (continued)</TblContinuationDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#each_elasticsearch_node"/>Each Elasticsearch node</P>
+        <ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">vCPU: 1</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Memory: 32 GB</P>
+            <!--topic/li--><!--p element nested in list at nest level 3--><!--makeListPara p--><P paraDef="unorderedlistitem1">Storage:</P>
+            <!--p element nested in list at nest level 3--><ParaGroup paraGroupDef="ul_ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2" numberValue="1" withPrevious="Y">Primary disk (vmdisk1): 100 GB</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem2">Data disk (vmdisk2): 1 TB</P>
+            </ParaGroup>
+        </ParaGroup>
+        <P paraDef="body">The required memory depends on the index size that is handled by the data node. For a better
+            performance, consider increasing the memory. The total memory available to the node must be
+            distributed between the host operating system, the Elasticsearch java heap space, and the kernel file
+            system caches. For example, if the system has 32 GB memory, 2 GB must be allocated for the host
+            operating system, 15 GB for the java heap space, and the remaining 15 GB for the file system caches.</P>
+        <P paraDef="body">The data disk (vmdisk2) can be resized according to expectations on the amount of harvest data to be
+            stored.</P>
+    </MiramoXML>
