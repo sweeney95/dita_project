@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="federal_information_processing_standard__fips">
+    <title>Federal Information Processing Standard (FIPS)</title>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="IndexKey/it4"></keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>FIPS is a standard recommended by the National Institute of Standards and Technology (NIST) and the
+            US Federal Government. It ensures certain security standards are met for software or hardware
+            components deployed at US government sites. Enabling FIPS ensures that the SSL/TLS engine that is
+            compliant with the US Government recommendation is used. IBM StoredIQ supports FIPS Level 1.</p>
+        <p>Secure gateway communication can be enabled without FIPS. If FIPS is enabled, IBM StoredIQ uses FIPS
+            compliant versions of OpenSSL.</p>
+    </conbody>
+</concept>

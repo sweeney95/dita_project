@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>DITA Project 2 - Michael Sweeney</title>
+    <topicmeta>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>CIT</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019-11-20" golive="2019-11-26"/>
+        </critdates>
+        <audience audience="novice"></audience>
+    </topicmeta>
+    <topicgroup>
+        <topicref href="glossary_keyrefs.ditamap" format="ditamap"/>
+    </topicgroup>
+    <topicref href="cover_page.dita">
+        <topicref href="images.dita"/>
+        <topicref href="xrefs.dita"/>
+        <topicref href="conkeyrefs.dita"/>
+        <topicref href="conditional_text.dita"/>
+        <topicref href="glossary_0.dita"/>
+    </topicref>
+    <topicref href="about_this_publication.dita">
+        <topicref href="ibm_storediq_product_library.dita"/>
+        <topicref href="contacting_ibm_storediq_customer_support_0.dita">
+            <topicref href="contacting_ibm.dita"/>
+        </topicref>
+    </topicref>
+    <topicref href="ibm_storediq_components.dita">
+        <topicref href="solution_components.dita"/>
+        <topicref href="applications_of_ibm_storediq.dita">
+            <topicref href="ibm_storediq_data_server.dita"/>
+            <topicref href="ibm_storediq_administrator.dita"/>
+            <topicref href="ibm_storediq_data_workbench.dita"/>
+            <topicref href="ibm_storediq_insights.dita"/>
+            <topicref href="ibm_storediq_policy_manager.dita"/>
+            <topicref href="ibm_storediq_desktop_data_collector.dita"/>
+        </topicref>
+    </topicref>
+    <topicref href="planning_for_deployment.dita">
+        <topicref href="generate_customized_reports_with_the_spcr_tool.dita">
+            <topicref href="detailed_system_requirements.dita"/>
+            <topicref href="hardware_requirements.dita"/>
+            <topicref href="end_of_service.dita"/>
+        </topicref>
+        <topicref href="open_virtual_appliance__ova__configuration_requirements.dita">
+            <topicref href="application_stack.dita"/>
+            <topicref href="gateway_server.dita"/>
+            <topicref href="dataserver___classic.dita"/>
+            <topicref href="dataserver___distributed.dita"/>
+            <topicref href="each_elasticsearch_node.dita"/>
+        </topicref>
+        <topicref href="network_and_port_requirements.dita">
+            <topicref href="tcp__port_ranges_for_the_firewall.dita"/>
+            <topicref href="default_open_ports.dita">
+                <topicref href="ssh_port_22.dita"/>
+                <topicref href="default_open_ports_on_the_appstack.dita"/>
+                <topicref href="default_open_ports_on_the_ibm_storediq_data_server.dita"/>
+                <topicref
+                    href="enable_or_disable_ports_or_services_on_the_ibm_storediq_data_server.dita"/>
+                <topicref href="s.dita"/>
+                <topicref href="l.dita"/>
+                <topicref href="d_port_number__port_range.dita"/>
+                <topicref href="e__service_name.dita"/>
+                <topicref href="d__service_name.dita"/>
+                <topicref href="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita"/>
+                <topicref href="default_open_ports_on_the_ibm_storediq_gateway.dita"/>
+                <topicref href="supported_chain_and_rules_on_the_ibm_storediq_gateway.dita"/>
+                <topicref href="open_ports_for_desktop_client_access_to_the_data_server_1.dita"/>
+            </topicref>
+        </topicref>
+        <topicref href="environment_sizing_guidelines.dita">
+            <topicref href="vmware_requirements.dita"/>
+        </topicref>
+        <topicref href="stack_provisioning_prerequisites.dita"/>
+        <topicref href="license_usage_metrics.dita">
+            <topicref href="integration_with_ibm_license_metric_tool.dita"/>
+        </topicref>
+        <topicref href="security.dita">
+            <topicref href="federal_information_processing_standard__fips.dita"/>
+            <topicref href="secure_communication_and_encryption_of_data_in_motion.dita"/>
+            <topicref href="encryption_of_data_at_rest.dita"/>
+            <topicref href="network_isolation.dita"/>
+            <topicref href="access_control.dita">
+                <topicref href="root_and_builder_accounts_on_the_elasticsearch_cluster_nodes.dita"/>
+                <topicref href="siqadmin_account_on_the_appstack.dita"/>
+            </topicref>
+            <topicref href="default_user_accounts.dita"/>
+        </topicref>
+    </topicref>
+    <topicref href="deploying_ibm_storediq.dita">
+        <topicref href="deploying_the_virtual_appliances_0.dita"/>
+        <topicref href="deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
+    </topicref>
+</map>

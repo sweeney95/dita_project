@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="glossary_0">
+    <title>Glossary</title>
+    <conbody>
+        <p>I created a glossary by creating a glossgroup then creating a glossentry inside the
+            glossgroup for each term and defining it.</p>
+        <p>The glossary does not work in the DITA PDF output but does work when built in the DITA
+            Map WebHelp Responsive.</p>
+    </conbody>
+</concept>

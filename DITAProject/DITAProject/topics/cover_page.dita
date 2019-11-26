@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="cover_page">
+    <title>Cover Page</title>
+    <shortdesc>General Information about the techniques I used for linking, conditional text, etc.</shortdesc>
+    <conbody>
+        <p>The purpose of this topic is to discuss the different methods I used to develop my DITA document.</p>
+    </conbody>
+</concept>

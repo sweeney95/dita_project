@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="conkeyrefs">
+    <title>Conkeyrefs</title>
+    <conbody>
+        <p>I used conkeyrefs to add images and indexterms to the document. I applied a keywords id
+            to a selection of indexterms required to be in one topic, then referenced the id in the
+            topics. I used the same method when adding images to the document.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="images">
+    <title>Images</title>
+    <conbody>
+        <p>To add images to my document, I created a ditamp called "Glossary-keyrefs". I then added
+            a keydef for each images and used hrefs to point the ditamap to my images folder with my
+            project folder structure. In the document, to add an image I added an image tag then
+            used the keyref attribute to point to the image. I also applied a width of 750 to keep
+            the images a uniform size.</p>
+    </conbody>
+</concept>

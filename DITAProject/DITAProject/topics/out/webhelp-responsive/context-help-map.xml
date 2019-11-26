@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="cover_page" path="cover_page.html"/>
+   <appContext helpID="images" path="images.html"/>
+   <appContext helpID="xrefs" path="xrefs.html"/>
+   <appContext helpID="conkeyrefs" path="conkeyrefs.html"/>
+   <appContext helpID="conditional_text" path="conditional_text.html"/>
+   <appContext helpID="glossary_0" path="glossary_0.html"/>
+   <appContext helpID="about_this_publication" path="about_this_publication.html"/>
+   <appContext helpID="ibm_storediq_product_library"
+               path="ibm_storediq_product_library.html"/>
+   <appContext helpID="contacting_ibm_storediq_customer_support_0"
+               path="contacting_ibm_storediq_customer_support_0.html"/>
+   <appContext helpID="contacting_ibm" path="contacting_ibm.html"/>
+   <appContext helpID="ibm_storediq_components" path="ibm_storediq_components.html"/>
+   <appContext helpID="solution_components" path="solution_components.html"/>
+   <appContext helpID="applications_of_ibm_storediq"
+               path="applications_of_ibm_storediq.html"/>
+   <appContext helpID="ibm_storediq_data_server" path="ibm_storediq_data_server.html"/>
+   <appContext helpID="ibm_storediq_administrator"
+               path="ibm_storediq_administrator.html"/>
+   <appContext helpID="ibm_storediq_data_workbench"
+               path="ibm_storediq_data_workbench.html"/>
+   <appContext helpID="ibm_storediq_insights" path="ibm_storediq_insights.html"/>
+   <appContext helpID="ibm_storediq_policy_manager"
+               path="ibm_storediq_policy_manager.html"/>
+   <appContext helpID="ibm_storediq_desktop_data_collector"
+               path="ibm_storediq_desktop_data_collector.html"/>
+   <appContext helpID="planning_for_deployment" path="planning_for_deployment.html"/>
+   <appContext helpID="generate_customized_reports_with_the_spcr_tool"
+               path="generate_customized_reports_with_the_spcr_tool.html"/>
+   <appContext helpID="detailed_system_requirements"
+               path="detailed_system_requirements.html"/>
+   <appContext helpID="hardware_requirements" path="hardware_requirements.html"/>
+   <appContext helpID="end_of_service" path="end_of_service.html"/>
+   <appContext helpID="open_virtual_appliance__ova__configuration_requirements"
+               path="open_virtual_appliance__ova__configuration_requirements.html"/>
+   <appContext helpID="application_stack" path="application_stack.html"/>
+   <appContext helpID="gateway_server" path="gateway_server.html"/>
+   <appContext helpID="dataserver___classic" path="dataserver___classic.html"/>
+   <appContext helpID="dataserver___distributed" path="dataserver___distributed.html"/>
+   <appContext helpID="each_elasticsearch_node" path="each_elasticsearch_node.html"/>
+   <appContext helpID="network_and_port_requirements"
+               path="network_and_port_requirements.html"/>
+   <appContext helpID="tcp__port_ranges_for_the_firewall"
+               path="tcp__port_ranges_for_the_firewall.html"/>
+   <appContext helpID="default_open_ports" path="default_open_ports.html"/>
+   <appContext helpID="ssh_port_22" path="ssh_port_22.html"/>
+   <appContext helpID="default_open_ports_on_the_appstack"
+               path="default_open_ports_on_the_appstack.html"/>
+   <appContext helpID="default_open_ports_on_the_ibm_storediq_data_server"
+               path="default_open_ports_on_the_ibm_storediq_data_server.html"/>
+   <appContext helpID="enable_or_disable_ports_or_services_on_the_ibm_storediq_data_server"
+               path="enable_or_disable_ports_or_services_on_the_ibm_storediq_data_server.html"/>
+   <appContext helpID="s" path="s.html"/>
+   <appContext helpID="l" path="l.html"/>
+   <appContext helpID="d_port_number__port_range"
+               path="d_port_number__port_range.html"/>
+   <appContext helpID="e__service_name" path="e__service_name.html"/>
+   <appContext helpID="d__service_name" path="d__service_name.html"/>
+   <appContext helpID="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster"
+               path="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.html"/>
+   <appContext helpID="default_open_ports_on_the_ibm_storediq_gateway"
+               path="default_open_ports_on_the_ibm_storediq_gateway.html"/>
+   <appContext helpID="supported_chain_and_rules_on_the_ibm_storediq_gateway"
+               path="supported_chain_and_rules_on_the_ibm_storediq_gateway.html"/>
+   <appContext helpID="open_ports_for_desktop_client_access_to_the_data_server_1"
+               path="open_ports_for_desktop_client_access_to_the_data_server_1.html"/>
+   <appContext helpID="environment_sizing_guidelines"
+               path="environment_sizing_guidelines.html"/>
+   <appContext helpID="vmware_requirements" path="vmware_requirements.html"/>
+   <appContext helpID="stack_provisioning_prerequisites"
+               path="stack_provisioning_prerequisites.html"/>
+   <appContext helpID="license_usage_metrics" path="license_usage_metrics.html"/>
+   <appContext helpID="integration_with_ibm_license_metric_tool"
+               path="integration_with_ibm_license_metric_tool.html"/>
+   <appContext helpID="security" path="security.html"/>
+   <appContext helpID="federal_information_processing_standard__fips"
+               path="federal_information_processing_standard__fips.html"/>
+   <appContext helpID="secure_communication_and_encryption_of_data_in_motion"
+               path="secure_communication_and_encryption_of_data_in_motion.html"/>
+   <appContext helpID="encryption_of_data_at_rest"
+               path="encryption_of_data_at_rest.html"/>
+   <appContext helpID="network_isolation" path="network_isolation.html"/>
+   <appContext helpID="access_control" path="access_control.html"/>
+   <appContext helpID="root_and_builder_accounts_on_the_elasticsearch_cluster_nodes"
+               path="root_and_builder_accounts_on_the_elasticsearch_cluster_nodes.html"/>
+   <appContext helpID="siqadmin_account_on_the_appstack"
+               path="siqadmin_account_on_the_appstack.html"/>
+   <appContext helpID="default_user_accounts" path="default_user_accounts.html"/>
+   <appContext helpID="deploying_ibm_storediq" path="deploying_ibm_storediq.html"/>
+   <appContext helpID="deploying_the_virtual_appliances"
+               path="deploying_the_virtual_appliances_0.html"/>
+   <appContext helpID="deploying_ibm_storediq_on_microsoft_hyper_v"
+               path="deploying_ibm_storediq_on_microsoft_hyper_v.html"/>
+   <appContext helpID="dd3" path="glossary.html#dd3"/>
+   <appContext helpID="dd6" path="glossary.html#dd6"/>
+   <appContext helpID="dd7" path="glossary.html#dd7"/>
+   <appContext helpID="dd8" path="glossary.html#dd8"/>
+   <appContext helpID="dd2" path="glossary.html#dd2"/>
+   <appContext helpID="dd4" path="glossary.html#dd4"/>
+   <appContext helpID="dd5" path="glossary.html#dd5"/>
+   <appContext helpID="ddl" path="glossary.html#ddl"/>
+   <appContext helpID="dd9" path="glossary.html#dd9"/>
+</map>

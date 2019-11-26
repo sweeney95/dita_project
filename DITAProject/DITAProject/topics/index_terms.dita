@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="index_terms">
+    <title></title>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <keywords id="it1">
+                <indexterm>Components
+                    <indexterm>Application Stack</indexterm>
+                    <indexterm>The Gateway</indexterm>
+                    <indexterm>Elasticsearch Cluster</indexterm>
+                </indexterm>
+            </keywords>
+            <keywords id="it2">
+                <indexterm>PostgreSQL</indexterm>
+                <indexterm>DataServer
+                    <indexterm>Classic</indexterm>
+                    <indexterm>Distributed</indexterm>
+                </indexterm>
+                <indexterm>User Interface
+                    <indexterm>IBM StoredIQ Administrator</indexterm>
+                    <indexterm>IBM StoredIQ Data WorkBench</indexterm>
+                    <indexterm>IBM StoredIQ Insights</indexterm>
+                    <indexterm>IBM StoredIQ Policy Manager</indexterm>
+                </indexterm>
+            </keywords>
+            <keywords id="it3">
+                <indexterm>Administrator
+                    <index-see>User Interface</index-see>
+                    <index-see>DataServer</index-see>
+                </indexterm>
+            </keywords>
+            <keywords id="it4">
+                <indexterm>
+                    FIPS
+                    <index-see>Federal Information Processing Standard</index-see>
+                </indexterm>
+                <indexterm>
+                    NIST
+                    <index-see>National Institute of Standards and Technology</index-see>
+                </indexterm>
+            </keywords>
+            <keywords id="it5">
+                <indexterm>Search Guard
+                    <index-see>Elasticsearch</index-see>
+                </indexterm>
+            </keywords>
+            <keywords id="it6">
+                <indexterm>LUKS
+                    <index-see>Linux Unified Key Setup</index-see>
+                </indexterm>
+            </keywords>
+            <keywords id="it7">
+                <indexterm>Harvesting</indexterm>
+                <indexterm>Step-up Analytics</indexterm>
+                <indexterm>sensitivity</indexterm>
+            </keywords>
+            <keywords id="it8">
+                <indexterm>Access Control</indexterm>
+                <indexterm>siqadmin</indexterm>
+            </keywords>
+            <keywords id="it9">
+                <indexterm>root</indexterm>
+                <indexterm>Builder</indexterm>
+                <indexterm>Nodes</indexterm>
+                <indexterm>Permissions</indexterm>
+            </keywords>
+            <keywords id="it10">
+                <indexterm>Configuration</indexterm>
+                <indexterm>Punctuation</indexterm>
+
+            </keywords>
+        </metadata>
+    </prolog>
+
+    <conbody>
+        <p/>
+    </conbody>
+</concept>

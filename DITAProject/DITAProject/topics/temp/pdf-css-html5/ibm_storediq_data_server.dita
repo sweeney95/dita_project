@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\temp\pdf-css-html5?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="ibm_storediq_data_server" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/ibm_storediq_data_server.dita" xtrc="concept:1;3:40">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/ibm_storediq_data_server.dita" xtrc="title:1;4:12">IBM StoredIQ Data Server</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/ibm_storediq_data_server.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/ibm_storediq_data_server.dita" xtrc="p:1;6:12">IBM StoredIQ Data Server user interface provides access to data server functionality. It
+            allows administrators to view the dashboard and see the status of the jobs and system
+            details. Administrators can manage information about servers and conduct various
+            configurations on the system and application settings. </p>
+        <image keyref="ibm1" width="750" placement="inline" class="- topic/image " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/ibm_storediq_data_server.dita" xtrc="image:1;10:42" href="images/ibm1.PNG" format="png"/>
+    </conbody>
+</concept>

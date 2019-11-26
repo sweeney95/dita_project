@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\temp\pdf-css-html5?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="tcp__port_ranges_for_the_firewall" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="concept:1;3:49">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="title:1;4:12">TCP: port ranges for the firewall</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="p:1;6:12">To ensure the network access for desktop volumes, the following port ranges must be open through a
+            firewall.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="p:2;8:12"><ul class="- topic/ul " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="ul:1;8:16">
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="li:1;9:17">21000-21004</li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="li:2;10:17">21100-21101</li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="li:3;11:17">21110-21130</li>
+            <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/tcp__port_ranges_for_the_firewall.dita" xtrc="li:4;12:17">21200-21204</li>
+        </ul></p>
+    </conbody>
+</concept>

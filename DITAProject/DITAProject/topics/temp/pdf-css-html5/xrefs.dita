@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\temp\pdf-css-html5?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="xrefs" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/xrefs.dita" xtrc="concept:1;3:21">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/xrefs.dita" xtrc="title:1;4:12">XREFs</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/xrefs.dita" xtrc="conbody:1;5:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/xrefs.dita" xtrc="p:1;6:12">There are several hyperlinks throughout the document to external documents and webpages.
+            I added these by using xrefs. The xrefs points to the external link using a href, the
+            format is html and scope is external. I then add the words that need to be hyperlinked
+            between the opening and closing tag of the xref.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/xrefs.dita" xtrc="p:2;10:12">Some links referenced a certain page in a PDF. To get the hyperlink to open at the
+            required page, I added "#page=X" at the end of the link in the href.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="conditional_text">
+    <title>Conditional Text</title>
+    <conbody>
+        <p>I applied conditional text throughtout the document so it can be filtered between novice
+            and expert. My knowledge on IBM StoredIQ Deployment and Configuration is not great. You
+            can find audience filters in "Deploying the virtual appliances", "Deploying IBM StoredIQ
+            on Microsoft" and "Encryption of data at rest".</p>
+    </conbody>
+</concept>

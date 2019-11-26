@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xrefs">
+    <title>Xrefs</title>
+    <conbody>
+        <p>There are several hyperlinks throughout the document to external documents and webpages.
+            I added these by using xrefs. The xrefs points to the external link using a href, the
+            format is html and scope is external. I then add the words that need to be hyperlinked
+            between the opening and closing tag of the xref.</p>
+        <p>Some links referenced a certain page in a PDF. To get the hyperlink to open at the
+            required page, I added "#page=X" at the end of the link in the href.</p>
+    </conbody>
+</concept>

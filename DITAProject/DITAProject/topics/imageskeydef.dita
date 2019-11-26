@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="imageskeydef">
+    <title>imageskeydef</title>
+    <conbody>
+        <p>
+            <image id="ibm1" href="images/ibm1.PNG"></image>
+            <image id="ibm2" href="images/ibm2.PNG"></image>
+            <image id="ibm3" href="images/ibm3.PNG"></image>
+            <image id="ibm4" href="images/ibm4.PNG"></image>
+            <image id="ibm5" href="images/ibm5.PNG"></image>
+        </p>
+    </conbody>
+</concept>

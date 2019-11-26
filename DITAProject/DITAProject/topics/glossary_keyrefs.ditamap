@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Glossary-keyRefs</title>
+    <topicgroup>
+        <keydef keys="ibm1" href="images/ibm1.PNG" format="png"></keydef>
+        <keydef keys="ibm2" href="images/ibm2.PNG" format="png"></keydef>
+        <keydef keys="ibm3" href="images/ibm3.PNG" format="png"></keydef>
+        <keydef keys="ibm4" href="images/ibm4.PNG" format="png"></keydef>
+        <keydef keys="ibm5" href="images/ibm5.PNG" format="png"></keydef>
+    </topicgroup>
+</map>

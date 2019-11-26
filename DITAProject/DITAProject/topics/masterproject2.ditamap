@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>IBM StoredIQ Deployment and Configuration Guide</title>
+    <mapref href="dita_project_2___michael_sweeney.ditamap"/>
+    <mapref href="indexmap.ditamap" format="ditamap"/>
+    <mapref href="images.ditamap" format="ditamap"/>
+    
+    <topichead navtitle="glossary">
+        <topichead navtitle="A">
+            <topicref href="glossary.dita#dd3"></topicref>
+            <topicref href="glossary.dita#dd6"></topicref>
+        </topichead>
+        <topichead navtitle="C">
+            <topicref href="glossary.dita#dd7"></topicref>
+            <topicref href="glossary.dita#dd8"></topicref>
+        </topichead>
+        <topichead navtitle="D">
+            <topicref href="glossary.dita#dd2"></topicref>
+            <topicref href="glossary.dita#dd4"></topicref>
+            <topicref href="glossary.dita#dd5"></topicref>
+        </topichead>
+        <topichead navtitle="G">
+            <topicref href="glossary.dita#ddl"></topicref>
+        </topichead>
+        <topichead navtitle="I">
+            <topicref href="glossary.dita#dd9"></topicref>
+        </topichead>
+    </topichead>
+</map>

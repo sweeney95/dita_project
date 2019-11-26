@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="network_isolation">
+    <title>Network isolation</title>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="IndexKey/it7"></keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>If full-text harvesting and Step-up Analytics actions (cartridges) are applied, Elasticsearch indexes can
+            contain potentially sensitive content. Therefore, you should deploy the Elasticsearch nodes in an isolated
+            location on the network (for example, as an enclave or behind a firewall) that is properly secured
+            according to the sensitivity of the data being harvested. Only the IBM StoredIQ application stack and data
+            servers should be allowed to communicate with the Elasticsearch nodes.</p>
+        <p>Also, any data servers and the gateway should be deployed in an isolated network location to allow for
+            communication with authorized clients only.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Gateway","href":"glossary_8.html#ddl","attributes": {"data-id":"ddl",},"menu": {"hasChildren":false,},"tocID":"ddl-d62e638","topics":[]}]});

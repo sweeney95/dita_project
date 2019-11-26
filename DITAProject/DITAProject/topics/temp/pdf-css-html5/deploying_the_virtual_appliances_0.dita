@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\jswmic3\Documents\DITAProject\topics\temp\pdf-css-html5?><?workdir-uri file:/C:/Users/jswmic3/Documents/DITAProject/topics/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA General Task//EN?><?doctype-system generalTask.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="deploying_the_virtual_appliances" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic task/task " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="task:1;3:45">
+    <title class="- topic/title " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="title:1;4:12">Deploying the virtual appliances</title>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="taskbody:1;5:15">
+        <context class="- topic/section task/context " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="context:1;6:18"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="p:1;6:21">Use VMware vSphere Client to deploy the virtual appliances to an ESX server.
+                Deploy OVAs for the gateway, the data server, and the application stack, preferably
+                in this order. If an Elasticsearch cluster is also being deployed, those OVAs must
+                be deployed first.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="p:2;10:16">Ensure that all prerequisites for the deployment described in the planning section
+                are met and that the required software packages are available on your local system
+                before you start this task.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="p:3;13:16">Download the latest version of IBM StoredIQ from either IBM Fix Central or IBM
+                Passport Advantage®. For information about the package names and part numbers and
+                the links to the proper download locations, see the <xref href="https://www.ibm.com/support/pages/download-ibm-storediq-version-76019" format="html" scope="external" class="- topic/xref " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="xref:1;17:52"><?ditaot usertext?>download document</xref>.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="p:4;18:16">The number of Elasticsearch OVAs deployed depends on the planned size of your
+                Elasticsearch cluster. The default setup is a three-node cluster. Each Elasticsearch
+                node requires a separate OVA deployment.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="p:5;21:16">The number of data server OVAs deployed depends on the number of data servers needed.
+                Each data server requires a separate OVA deployment.</p></context>
+        <steps class="- topic/ol task/steps " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="steps:1;23:16">
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="step:1;24:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:1;25:22">Connect to the ESX server or vCenter server.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="step:2;27:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:2;28:22">Open VMware vSphere Client.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="step:3;30:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:3;31:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:1;31:32">File &gt; Deploy OVF Template</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="step:4;33:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:4;34:22">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:2;34:36">Deploy OVF Template</b> wizard, complete these steps.</cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substeps:1;35:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:1;36:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:5;37:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:3;37:44">Select source</b> page, click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:4;37:77">Local file</b>, and then
+                            browse to and select the appropriate OVF. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:5;38:80">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:2;40:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:6;41:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:6;41:44">Review details</b> page, review the OVF template
+                            details.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:3;44:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:7;45:30">These storage requirements are critical and will be used to select a
+                            data store during deployment. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:7;46:68">Next</b> to proceed.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:4;48:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:8;49:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:8;49:44">Select name and folder</b> page, enter a name for the
+                            deployed template or use the default name. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:9;50:81">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:5;52:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:9;53:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:10;53:44">Select a resource</b> page, select the resource pool
+                            where the deployed OVF template runs. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:11;54:76">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:6;56:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:10;57:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:12;57:44">Select storage</b> page, select a data store on which to
+                            store the deployed OVF template files. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:13;58:77">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:7;60:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:11;61:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:14;61:44">Disk Format</b> list, select the disk format to be
+                            deployed. Note that although <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:15;62:61">Thin Provision</b> saves disk space, it
+                            can negatively affect performance. If possible, select <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:16;63:87">Thick
+                                Provision Lazy Zeroed</b>. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:17;64:69">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:8;66:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:12;67:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:18;67:44">Network Mapping</b>, map the network to the appropriate
+                            network. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:19;68:47">Next</b>.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:9;70:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:13;71:30">Within the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:20;71:44">Ready to Complete</b> page, review the deployment
+                            settings. Click <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:21;72:48">Finish</b> to complete the Deploy OVF Template.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="substep:10;74:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:14;75:30">At this point, you can select the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:22;75:67">Power on</b> check box to turn on
+                            the VM after deployment is complete.</cmd>
+                    </substep>
+                </substeps>
+                <info class="- topic/itemgroup task/info " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="info:1;79:23"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="b:23;79:26">Important:</b> If your IBM StoredIQ environment includes an Elasticsearch
+                    cluster, do not select this option when you're deploying the data server OVA.
+                    The Elasticsearch cluster setup must be complete before you run the data server
+                    first-boot process.</info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="step:5;84:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="cmd:15;85:22">Repeat steps 3 and 4 for each OVA.</cmd>
+            </step>
+        </steps>
+        <tasktroubleshooting class="- topic/section task/tasktroubleshooting " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="tasktroubleshooting:1;88:30"><p class="- topic/p " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="p:6;88:33">Configure the components of your IBM StoredIQ environment in this
+                order:</p><ol class="- topic/ol " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="ol:1;89:31">
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="li:1;90:21">Elasticsearch cluster (if applicable)</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="li:2;91:21">Gateway</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="li:3;92:21">One or more data servers</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/jswmic3/Documents/DITAProject/topics/deploying_the_virtual_appliances_0.dita" xtrc="li:4;93:21">Application stack</li>
+            </ol></tasktroubleshooting>
+    </taskbody>
+</task>

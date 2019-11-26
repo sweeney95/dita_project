@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="glossary">
+    <title>Glossary</title>
+    <glossentry id="dd3">
+        <glossterm>Application stack</glossterm>
+        <glossdef>The application stack provides the user interface for the IBM StoredIQ
+            Administrator, IBM StoredIQ Data Workbench, IBM StoredIQ Insights, and the IBM StoredIQ
+            Policy Manager products.</glossdef>
+    </glossentry>
+    <glossentry id="dd6">
+        <glossterm>Auto-classification</glossterm>
+        <glossdef>A feature found in some content management systems (CMS) that will scan the
+            contents of a document and automatically assign categories and keywords based on the
+            document contents.</glossdef>
+    </glossentry> 
+    <glossentry id="dd7">
+        <glossterm>Cartridges</glossterm>
+        <glossdef>Cartridges are compressed files that contain analysis logic. When you add a
+            cartridge to IBM StoredIQ AppStack, it can detect new data in documents during indexing
+            and make these new insights searchable.</glossdef>
+    </glossentry>
+    <glossentry id="dd8">
+        <glossterm>Connector API SDK</glossterm>
+        <glossdef> A connector is a software component of IBM StoredIQ that is used to connect to a
+            data source such as a network file system and access its data. Using IBM StoredIQ
+            Connector API SDK, developers of other companies can develop connectors to new data
+            sources outside the IBM StoredIQ development environment.</glossdef>
+    </glossentry> 
+    <glossentry id="dd4">
+        <glossterm>DataServer - Classic</glossterm>
+        <glossdef> A data server of the type DataServer - Classic uses the embedded PostgreSQL
+            database for storing the index.</glossdef>
+    </glossentry>
+    <glossentry id="dd5">
+        <glossterm>DataServer - Distributed</glossterm>
+        <glossdef> With a data server of the type DataServer - Distributed, the index is stored in
+            an Elasticsearch cluster. Data servers of this type also provide better performance in
+            search queries.</glossdef>
+    </glossentry>
+    <glossentry id="dd2">
+        <glossterm>Data servers</glossterm>
+        <glossdef>A data server obtains the data from supported data sources and indexes it. By
+            indexing this data, you gain information about unstructured data such as file size, file
+            data types, file owners.</glossdef>
+    </glossentry> 
+    <glossentry id="ddl">
+        <glossterm>Gateway</glossterm>
+        <glossdef>The gateway communicates between the data servers and the application stack. The
+            application stack polls the gateway for information about the data on the data servers.
+            The data servers push the information to the gateway.</glossdef>
+    </glossentry>
+     <glossentry id="dd9">
+        <glossterm>IBM StoredIQ Insights</glossterm>
+        <glossdef>IBM StoredIQ Insights provides dynamic and interactive filtering for your data with easy access to all
+            metadata and instant plain-text preview of document content for full-text indexed volumes.</glossdef>
+    </glossentry>
+    
+</glossgroup>
